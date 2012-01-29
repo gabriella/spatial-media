@@ -20,15 +20,6 @@ homeworkApp::homeworkApp() {
     addModifier(new poCamera2D(poColor::black));
     //redRect - event what happens with key down
     
-    poRectShape* redRect = new poRectShape(10,10);
-    redRect->fillColor=poColor::red;
-    redRect->position.set(0,0, 0);
-    addChild(redRect);
-    
-    addEvent(PO_KEY_DOWN_EVENT, this);
-    
-    
-	
 }
 
 // APP DESTRUCTOR. Delete all objects here.
@@ -45,8 +36,8 @@ void homeworkApp::draw() {
     int W;
     int  H;
     drawGrid1(W, H);
-    int X=0;
-    int Y=0;
+    //int X=0;
+    //int Y=0;
     drawGrid2(X,Y);
     // printf(W);
     
@@ -96,10 +87,12 @@ void homeworkApp::drawGrid1(int W_, int H_){
     }
 }
 void homeworkApp::drawGrid2(int X_, int Y_){
-    //  po::setColor(poColor::red);
-    // po::drawFilledRect(X_,Y_,10,10);
     
-    
+    poRectShape* redRect = new poRectShape(10,10);
+    redRect->fillColor=poColor::red;
+    redRect->position.set(X,Y, 0);
+    addChild(redRect);
+
     
     
 }
