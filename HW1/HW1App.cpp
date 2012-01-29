@@ -5,14 +5,23 @@
 #include "HW1App.h"
 #include "poApplication.h"
 #include "poCamera.h"
-#include "poShapeBasics2D.h"
+//#include "poShapeBasics2D.h"
 #include "poSimpleDrawing.h"
 
 
 // APP CONSTRUCTOR. Create all objects here.
 HW1App::HW1App() {
     addModifier(new poCamera2D(poColor::black));
-    addEvent(PO_KEY_DOWN_EVENT, this);
+
+  
+    redRect = new poRectShape(X,Y);
+    redRect->fillColor.set(1,0,0);
+    redRect->position.set(X,Y, 0);
+    addChild(redRect);
+    redRect->addEvent(PO_KEY_DOWN_EVENT, this);
+
+    
+    
     
 	
 }
@@ -65,6 +74,10 @@ void HW1App::drawGrid1(int W_, int H_){
     }
     }
 void HW1App::drawGrid2(int X_, int Y_){
-    po::setColor(poColor::red);
-    po::drawFilledRect(X_,Y_,10,10);
+  //  po::setColor(poColor::red);
+   // po::drawFilledRect(X_,Y_,10,10);
+       
+    
+    
+    
 }

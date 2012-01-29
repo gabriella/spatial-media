@@ -3,6 +3,7 @@
  */
 
 #include "poObject.h"
+#include "poShapeBasics2D.h"
 
 
 
@@ -25,6 +26,9 @@ public:
     //virtual void drawGrid1(int W, int H);
     void drawGrid1(int W, int H);
     void drawGrid2(int X, int Y);
+    int X=0;
+    int Y=0;
+    poRectShape* redRect;
    
 };
 
