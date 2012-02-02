@@ -35,7 +35,7 @@ homeworkApp::homeworkApp() {
 
     //A->setText("the coord is %i %i  \n”", X,Y);
     std::stringstream s;
-    s<<"x: "<<X << "y;  " << Y;
+    s<<"x: "<<X_ << "y;  " << Y_;
     poTextBox* A = new poTextBox(150,150);				// Specify the width and height of the text box (optional)
     A->setText(s.str());
     A->setFont(poGetFont("Helvetica", "Regular"));
@@ -190,6 +190,7 @@ void homeworkApp::drawGrid2(int X_, int Y_){
     }
     
 }
+    cout<<X;    
 }
 
 

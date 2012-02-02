@@ -35,6 +35,8 @@ public:
     int Y;
     int W;
     int H;
+    int X_;
+    int Y_;
     void drawGrid1(int W, int H);
 
     poRectShape* redRect;
