@@ -174,17 +174,19 @@ void homeworkApp::drawGrid2(int X_, int Y_){
     for (int X_=0;X_<=getWindowWidth();X_=X_+30){
         for(int Y_ = 0;Y_<=getWindowHeight();Y_=Y_+30)  {
 
-    cout<<Y_<<X_;
+    //cout<<Y_<<X_;
     
-    if(mouseX<X_+10||mouseY<Y_+10){
+    if(mouseX>X_+10||mouseX<X_-10||mouseY>Y_+10||mouseY<Y_-10){
         
         
         
-    po::setColor(poColor::red);
+    po::setColor(poColor::white);
 
     po::drawFilledRect(X_, Y_,10,10);
   //  po::drawFilledRect(mouseX, mouseY, 10,10);
     }
+    else(po::setColor(poColor::red));
+         po::drawFilledRect(X_,Y_,10,10);
     }
     
 }
