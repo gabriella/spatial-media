@@ -23,7 +23,7 @@ homeworkApp::homeworkApp() {
     addEvent(PO_KEY_DOWN_EVENT, this);//keyPressed event
     //redRect->addEvent(PO_MOUSE_OVER_EVENT, this);//mouse over event for changing color of square
    addEvent(PO_MOUSE_OVER_EVENT, this);//mouse over event for changing color of square
-
+    addEvent(PO_MOUSE_MOVE_EVENT, this);
     X = 0;
     Y = 0;
     W=0;
@@ -81,6 +81,18 @@ void homeworkApp::draw() {
 
 // EVENT HANDLER. Called when events happen. Respond to events here.
 void homeworkApp::eventHandler(poEvent *event) {
+    
+    
+    if ( event->type == PO_MOUSE_MOVE_EVENT )
+    {
+        // capture mouse coordinates    
+        mouseX = event->globalPosition.x;
+        mouseY = event->globalPosition.y;
+        cout<< "mouse is at "<< mouseX<< mouseY;
+    }
+    
+
+    
 	if(event->type==PO_KEY_DOWN_EVENT){
         
        if(event->keyCode==126) {	
@@ -100,22 +112,28 @@ void homeworkApp::eventHandler(poEvent *event) {
         
     }
     
-    if(event->type==PO_MOUSE_OVER_EVENT)
+    else if(event->type==PO_MOUSE_OVER_EVENT)
     {
         
-//        for (int W=0;W<=getWindowWidth();W=W+30){
-//            for(int H = 0;H<=getWindowHeight();H=H+30)  {
+       // for (int W=0;W<=getWindowWidth();W=W+30){
+       //     for(int H = 0;H<=getWindowHeight();H=H+30)  {
+                
+                
 ////
-//                if(mouseX>W-5||mouseX<W+5||mouseY>H-5||mouseY<H+5){
-//                   // isRed = true;
-//                    mouseX=X;
-//                    mouseY = Y;
-//                }
+              // if(mouseX>W-5||mouseX<W+5||mouseY>H-5||mouseY<H+5){
+                  // if(mouseX<W+10||mouseY<H+10){
+
+                   // isRed = true;
+//                   X=mouseX;
+//                   Y=mouseY;
+                   mouseOvr=!mouseOvr;
+                   cout<< "mouseOvr";
+
+              //  }
                 
 //      else(isRed=false};
            
-        mouseOvr=!mouseOvr;
-    }
+          // }
         
         
         
@@ -124,8 +142,8 @@ void homeworkApp::eventHandler(poEvent *event) {
 //    }
 //    else{
 //        redRect->fillColor.set(1,1,0.5);
-
-    
+        //}
+    }  
 }
 // MESSAGE HANDLER. Called from within the app. Use for message passing.
 void homeworkApp::messageHandler(const std::string &msg, const poDictionary& dict) {
@@ -153,18 +171,25 @@ void homeworkApp::drawGrid2(int X_, int Y_){
 //    redRect->position.set(X,Y, 0);
 //    addChild(redRect);
     //if(isRed == true){
-    po::setColor(poColor::green);
-   // }
-    //else{    
-        po::setColor(poColor::red);
+    for (int X_=0;X_<=getWindowWidth();X_=X_+30){
+        for(int Y_ = 0;Y_<=getWindowHeight();Y_=Y_+30)  {
 
-       //  }
-    po::drawFilledRect(X_,Y_,10,10);
-  //  po::drawFilledRect(mouseX, mouseY, 10,10);
-
+    cout<<Y_<<X_;
     
+    if(mouseX<X_+10||mouseY<Y_+10){
+        
+        
+        
+    po::setColor(poColor::red);
+
+    po::drawFilledRect(X_, Y_,10,10);
+  //  po::drawFilledRect(mouseX, mouseY, 10,10);
+    }
+    }
     
 }
+}
+
 
 
 //how to get the arrow keys to work
