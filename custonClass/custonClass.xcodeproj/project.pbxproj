@@ -1,0 +1,229 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3A127F614D8A200009216F4 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = C3A127F514D8A200009216F4 /* AppDelegate.mm */; };
+		C3A127F814D8A200009216F4 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3A127F714D8A200009216F4 /* en.strings */; };
+		C3A127FA14D8A200009216F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A127F914D8A200009216F4 /* main.m */; };
+		C3A127FC14D8A200009216F4 /* main.pch in Resources */ = {isa = PBXBuildFile; fileRef = C3A127FB14D8A200009216F4 /* main.pch */; };
+		C3A127FF14D8A200009216F4 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3A127FE14D8A200009216F4 /* main.xib */; };
+		C3A1280214D8A200009216F4 /* poOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = C3A1280114D8A200009216F4 /* poOpenGLView.mm */; };
+		C3A1280614D8A200009216F4 /* custonClassApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3A1280514D8A200009216F4 /* custonClassApp.cpp */; };
+		C3A1280814D8A200009216F4 /* AppConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3A1280714D8A200009216F4 /* AppConfig.cpp */; };
+		C3A1281114D8A282009216F4 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3A1281014D8A282009216F4 /* Car.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3A127ED14D8A200009216F4 /* custonClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = custonClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A127F214D8A200009216F4 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = ../platform/Debug.xcconfig; sourceTree = "<group>"; };
+		C3A127F314D8A200009216F4 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = ../platform/Release.xcconfig; sourceTree = "<group>"; };
+		C3A127F414D8A200009216F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../platform/AppDelegate.h; sourceTree = "<group>"; };
+		C3A127F514D8A200009216F4 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ../platform/AppDelegate.mm; sourceTree = "<group>"; };
+		C3A127F714D8A200009216F4 /* en.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en.strings; path = ../platform/en.strings; sourceTree = "<group>"; };
+		C3A127F914D8A200009216F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../platform/main.m; sourceTree = "<group>"; };
+		C3A127FB14D8A200009216F4 /* main.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = main.pch; path = ../platform/main.pch; sourceTree = "<group>"; };
+		C3A127FD14D8A200009216F4 /* main.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = main.plist; path = ../platform/main.plist; sourceTree = "<group>"; };
+		C3A127FE14D8A200009216F4 /* main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = main.xib; path = ../platform/main.xib; sourceTree = "<group>"; };
+		C3A1280014D8A200009216F4 /* poOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = poOpenGLView.h; path = ../platform/poOpenGLView.h; sourceTree = "<group>"; };
+		C3A1280114D8A200009216F4 /* poOpenGLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = poOpenGLView.mm; path = ../platform/poOpenGLView.mm; sourceTree = "<group>"; };
+		C3A1280414D8A200009216F4 /* custonClassApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = custonClassApp.h; sourceTree = "<group>"; };
+		C3A1280514D8A200009216F4 /* custonClassApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = custonClassApp.cpp; sourceTree = "<group>"; };
+		C3A1280714D8A200009216F4 /* AppConfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AppConfig.cpp; sourceTree = "<group>"; };
+		C3A1281014D8A282009216F4 /* Car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Car.cpp; path = ../Car.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3A127EA14D8A200009216F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3A127E214D8A200009216F4 = {
+			isa = PBXGroup;
+			children = (
+				C3A127F014D8A200009216F4 /* custonClass */,
+				C3A127EE14D8A200009216F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3A127EE14D8A200009216F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3A127ED14D8A200009216F4 /* custonClass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3A127F014D8A200009216F4 /* custonClass */ = {
+			isa = PBXGroup;
+			children = (
+				C3A127F114D8A200009216F4 /* platform */,
+				C3A1280314D8A200009216F4 /* application */,
+			);
+			path = custonClass;
+			sourceTree = "<group>";
+		};
+		C3A127F114D8A200009216F4 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				C3A127F214D8A200009216F4 /* Debug.xcconfig */,
+				C3A127F314D8A200009216F4 /* Release.xcconfig */,
+				C3A127F414D8A200009216F4 /* AppDelegate.h */,
+				C3A127F514D8A200009216F4 /* AppDelegate.mm */,
+				C3A127F714D8A200009216F4 /* en.strings */,
+				C3A127F914D8A200009216F4 /* main.m */,
+				C3A127FB14D8A200009216F4 /* main.pch */,
+				C3A127FD14D8A200009216F4 /* main.plist */,
+				C3A127FE14D8A200009216F4 /* main.xib */,
+				C3A1280014D8A200009216F4 /* poOpenGLView.h */,
+				C3A1280114D8A200009216F4 /* poOpenGLView.mm */,
+			);
+			name = platform;
+			sourceTree = "<group>";
+		};
+		C3A1280314D8A200009216F4 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				C3A1281014D8A282009216F4 /* Car.cpp */,
+				C3A1280414D8A200009216F4 /* custonClassApp.h */,
+				C3A1280514D8A200009216F4 /* custonClassApp.cpp */,
+				C3A1280714D8A200009216F4 /* AppConfig.cpp */,
+			);
+			name = application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3A127EC14D8A200009216F4 /* custonClass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3A1280B14D8A200009216F4 /* Build configuration list for PBXNativeTarget "custonClass" */;
+			buildPhases = (
+				C3A127E914D8A200009216F4 /* Sources */,
+				C3A127EA14D8A200009216F4 /* Frameworks */,
+				C3A127EB14D8A200009216F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = custonClass;
+			productName = custonClass;
+			productReference = C3A127ED14D8A200009216F4 /* custonClass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3A127E414D8A200009216F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C3A127E714D8A200009216F4 /* Build configuration list for PBXProject "custonClass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3A127E214D8A200009216F4;
+			productRefGroup = C3A127EE14D8A200009216F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3A127EC14D8A200009216F4 /* custonClass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3A127EB14D8A200009216F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A127F814D8A200009216F4 /* en.strings in Resources */,
+				C3A127FC14D8A200009216F4 /* main.pch in Resources */,
+				C3A127FF14D8A200009216F4 /* main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3A127E914D8A200009216F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A127F614D8A200009216F4 /* AppDelegate.mm in Sources */,
+				C3A127FA14D8A200009216F4 /* main.m in Sources */,
+				C3A1280214D8A200009216F4 /* poOpenGLView.mm in Sources */,
+				C3A1280614D8A200009216F4 /* custonClassApp.cpp in Sources */,
+				C3A1280814D8A200009216F4 /* AppConfig.cpp in Sources */,
+				C3A1281114D8A282009216F4 /* Car.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C3A1280914D8A200009216F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A127F214D8A200009216F4 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C3A1280A14D8A200009216F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A127F314D8A200009216F4 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C3A1280C14D8A200009216F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C3A1280D14D8A200009216F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3A127E714D8A200009216F4 /* Build configuration list for PBXProject "custonClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A1280914D8A200009216F4 /* Debug */,
+				C3A1280A14D8A200009216F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3A1280B14D8A200009216F4 /* Build configuration list for PBXNativeTarget "custonClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A1280C14D8A200009216F4 /* Debug */,
+				C3A1280D14D8A200009216F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3A127E414D8A200009216F4 /* Project object */;
+}

@@ -1,0 +1,225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3A127CA14D89A19009216F4 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = C3A127C914D89A19009216F4 /* AppDelegate.mm */; };
+		C3A127CC14D89A19009216F4 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3A127CB14D89A19009216F4 /* en.strings */; };
+		C3A127CE14D89A19009216F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A127CD14D89A19009216F4 /* main.m */; };
+		C3A127D014D89A19009216F4 /* main.pch in Resources */ = {isa = PBXBuildFile; fileRef = C3A127CF14D89A19009216F4 /* main.pch */; };
+		C3A127D314D89A19009216F4 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3A127D214D89A19009216F4 /* main.xib */; };
+		C3A127D614D89A19009216F4 /* poOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = C3A127D514D89A19009216F4 /* poOpenGLView.mm */; };
+		C3A127DA14D89A19009216F4 /* simpleDrawingHelpApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3A127D914D89A19009216F4 /* simpleDrawingHelpApp.cpp */; };
+		C3A127DC14D89A19009216F4 /* AppConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3A127DB14D89A19009216F4 /* AppConfig.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3A127C114D89A19009216F4 /* simpleDrawingHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleDrawingHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A127C614D89A19009216F4 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = ../platform/Debug.xcconfig; sourceTree = "<group>"; };
+		C3A127C714D89A19009216F4 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = ../platform/Release.xcconfig; sourceTree = "<group>"; };
+		C3A127C814D89A19009216F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../platform/AppDelegate.h; sourceTree = "<group>"; };
+		C3A127C914D89A19009216F4 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ../platform/AppDelegate.mm; sourceTree = "<group>"; };
+		C3A127CB14D89A19009216F4 /* en.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en.strings; path = ../platform/en.strings; sourceTree = "<group>"; };
+		C3A127CD14D89A19009216F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../platform/main.m; sourceTree = "<group>"; };
+		C3A127CF14D89A19009216F4 /* main.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = main.pch; path = ../platform/main.pch; sourceTree = "<group>"; };
+		C3A127D114D89A19009216F4 /* main.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = main.plist; path = ../platform/main.plist; sourceTree = "<group>"; };
+		C3A127D214D89A19009216F4 /* main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = main.xib; path = ../platform/main.xib; sourceTree = "<group>"; };
+		C3A127D414D89A19009216F4 /* poOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = poOpenGLView.h; path = ../platform/poOpenGLView.h; sourceTree = "<group>"; };
+		C3A127D514D89A19009216F4 /* poOpenGLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = poOpenGLView.mm; path = ../platform/poOpenGLView.mm; sourceTree = "<group>"; };
+		C3A127D814D89A19009216F4 /* simpleDrawingHelpApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simpleDrawingHelpApp.h; sourceTree = "<group>"; };
+		C3A127D914D89A19009216F4 /* simpleDrawingHelpApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = simpleDrawingHelpApp.cpp; sourceTree = "<group>"; };
+		C3A127DB14D89A19009216F4 /* AppConfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AppConfig.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3A127BE14D89A19009216F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3A127B614D89A19009216F4 = {
+			isa = PBXGroup;
+			children = (
+				C3A127C414D89A19009216F4 /* simpleDrawingHelp */,
+				C3A127C214D89A19009216F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3A127C214D89A19009216F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3A127C114D89A19009216F4 /* simpleDrawingHelp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3A127C414D89A19009216F4 /* simpleDrawingHelp */ = {
+			isa = PBXGroup;
+			children = (
+				C3A127C514D89A19009216F4 /* platform */,
+				C3A127D714D89A19009216F4 /* application */,
+			);
+			path = simpleDrawingHelp;
+			sourceTree = "<group>";
+		};
+		C3A127C514D89A19009216F4 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				C3A127C614D89A19009216F4 /* Debug.xcconfig */,
+				C3A127C714D89A19009216F4 /* Release.xcconfig */,
+				C3A127C814D89A19009216F4 /* AppDelegate.h */,
+				C3A127C914D89A19009216F4 /* AppDelegate.mm */,
+				C3A127CB14D89A19009216F4 /* en.strings */,
+				C3A127CD14D89A19009216F4 /* main.m */,
+				C3A127CF14D89A19009216F4 /* main.pch */,
+				C3A127D114D89A19009216F4 /* main.plist */,
+				C3A127D214D89A19009216F4 /* main.xib */,
+				C3A127D414D89A19009216F4 /* poOpenGLView.h */,
+				C3A127D514D89A19009216F4 /* poOpenGLView.mm */,
+			);
+			name = platform;
+			sourceTree = "<group>";
+		};
+		C3A127D714D89A19009216F4 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				C3A127D814D89A19009216F4 /* simpleDrawingHelpApp.h */,
+				C3A127D914D89A19009216F4 /* simpleDrawingHelpApp.cpp */,
+				C3A127DB14D89A19009216F4 /* AppConfig.cpp */,
+			);
+			name = application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3A127C014D89A19009216F4 /* simpleDrawingHelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3A127DF14D89A19009216F4 /* Build configuration list for PBXNativeTarget "simpleDrawingHelp" */;
+			buildPhases = (
+				C3A127BD14D89A19009216F4 /* Sources */,
+				C3A127BE14D89A19009216F4 /* Frameworks */,
+				C3A127BF14D89A19009216F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simpleDrawingHelp;
+			productName = simpleDrawingHelp;
+			productReference = C3A127C114D89A19009216F4 /* simpleDrawingHelp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3A127B814D89A19009216F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C3A127BB14D89A19009216F4 /* Build configuration list for PBXProject "simpleDrawingHelp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3A127B614D89A19009216F4;
+			productRefGroup = C3A127C214D89A19009216F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3A127C014D89A19009216F4 /* simpleDrawingHelp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3A127BF14D89A19009216F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A127CC14D89A19009216F4 /* en.strings in Resources */,
+				C3A127D014D89A19009216F4 /* main.pch in Resources */,
+				C3A127D314D89A19009216F4 /* main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3A127BD14D89A19009216F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A127CA14D89A19009216F4 /* AppDelegate.mm in Sources */,
+				C3A127CE14D89A19009216F4 /* main.m in Sources */,
+				C3A127D614D89A19009216F4 /* poOpenGLView.mm in Sources */,
+				C3A127DA14D89A19009216F4 /* simpleDrawingHelpApp.cpp in Sources */,
+				C3A127DC14D89A19009216F4 /* AppConfig.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C3A127DD14D89A19009216F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A127C614D89A19009216F4 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C3A127DE14D89A19009216F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A127C714D89A19009216F4 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C3A127E014D89A19009216F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C3A127E114D89A19009216F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3A127BB14D89A19009216F4 /* Build configuration list for PBXProject "simpleDrawingHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A127DD14D89A19009216F4 /* Debug */,
+				C3A127DE14D89A19009216F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3A127DF14D89A19009216F4 /* Build configuration list for PBXNativeTarget "simpleDrawingHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A127E014D89A19009216F4 /* Debug */,
+				C3A127E114D89A19009216F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3A127B814D89A19009216F4 /* Project object */;
+}
