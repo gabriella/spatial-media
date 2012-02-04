@@ -64,6 +64,7 @@ void homeworkApp::update() {
         
         X=mouseX;
         Y=mouseY;
+       
     }
 }
 
@@ -103,7 +104,9 @@ void homeworkApp::eventHandler(poEvent *event) {
         // capture mouse coordinates    
         mouseX = event->globalPosition.x;
         mouseY = event->globalPosition.y;
-        cout<< "mouse is at "<< mouseX<< mouseY;
+       // cout<< "mouse is at "<< mouseX<< mouseY;
+        
+        
     }
     
 
@@ -192,8 +195,11 @@ void homeworkApp::drawGrid2(int X_, int Y_){
     //cout<<Y_<<X_;
     
     if(mouseX>X_+10||mouseX<X_-10||mouseY>Y_+10||mouseY<Y_-10){
-        
-        
+        stringstream adder;
+        adder<<"X is "<<mouseX<< "\nY is "<< mouseY<<"n";
+        //cout <<adder;
+        cout<<"X is "<<mouseX<< "\nY is "<< mouseY<<"\n";
+      //  A->setText(adder.str());
         
     po::setColor(poColor::white);
 
@@ -220,3 +226,6 @@ void homeworkApp::drawGrid3(int G_, int H_){
     
     }
 }
+
+//why a bit slow
+//how to get text

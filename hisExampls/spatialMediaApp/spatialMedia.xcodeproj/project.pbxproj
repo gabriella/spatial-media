@@ -1,0 +1,225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FC1C8DE14D7720C00A71083 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1C8DD14D7720C00A71083 /* AppDelegate.mm */; };
+		7FC1C8E014D7720C00A71083 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FC1C8DF14D7720C00A71083 /* en.strings */; };
+		7FC1C8E214D7720C00A71083 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1C8E114D7720C00A71083 /* main.m */; };
+		7FC1C8E414D7720C00A71083 /* main.pch in Resources */ = {isa = PBXBuildFile; fileRef = 7FC1C8E314D7720C00A71083 /* main.pch */; };
+		7FC1C8E714D7720C00A71083 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FC1C8E614D7720C00A71083 /* main.xib */; };
+		7FC1C8EA14D7720C00A71083 /* poOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1C8E914D7720C00A71083 /* poOpenGLView.mm */; };
+		7FC1C8EE14D7720C00A71083 /* spatialMediaApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1C8ED14D7720C00A71083 /* spatialMediaApp.cpp */; };
+		7FC1C8F014D7720C00A71083 /* AppConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1C8EF14D7720C00A71083 /* AppConfig.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7FC1C8D514D7720C00A71083 /* spatialMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spatialMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC1C8DA14D7720C00A71083 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = ../platform/Debug.xcconfig; sourceTree = "<group>"; };
+		7FC1C8DB14D7720C00A71083 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = ../platform/Release.xcconfig; sourceTree = "<group>"; };
+		7FC1C8DC14D7720C00A71083 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../platform/AppDelegate.h; sourceTree = "<group>"; };
+		7FC1C8DD14D7720C00A71083 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ../platform/AppDelegate.mm; sourceTree = "<group>"; };
+		7FC1C8DF14D7720C00A71083 /* en.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en.strings; path = ../platform/en.strings; sourceTree = "<group>"; };
+		7FC1C8E114D7720C00A71083 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../platform/main.m; sourceTree = "<group>"; };
+		7FC1C8E314D7720C00A71083 /* main.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = main.pch; path = ../platform/main.pch; sourceTree = "<group>"; };
+		7FC1C8E514D7720C00A71083 /* main.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = main.plist; path = ../platform/main.plist; sourceTree = "<group>"; };
+		7FC1C8E614D7720C00A71083 /* main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = main.xib; path = ../platform/main.xib; sourceTree = "<group>"; };
+		7FC1C8E814D7720C00A71083 /* poOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = poOpenGLView.h; path = ../platform/poOpenGLView.h; sourceTree = "<group>"; };
+		7FC1C8E914D7720C00A71083 /* poOpenGLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = poOpenGLView.mm; path = ../platform/poOpenGLView.mm; sourceTree = "<group>"; };
+		7FC1C8EC14D7720C00A71083 /* spatialMediaApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spatialMediaApp.h; sourceTree = "<group>"; };
+		7FC1C8ED14D7720C00A71083 /* spatialMediaApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = spatialMediaApp.cpp; sourceTree = "<group>"; };
+		7FC1C8EF14D7720C00A71083 /* AppConfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AppConfig.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FC1C8D214D7720C00A71083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FC1C8CA14D7720C00A71083 = {
+			isa = PBXGroup;
+			children = (
+				7FC1C8D814D7720C00A71083 /* spatialMedia */,
+				7FC1C8D614D7720C00A71083 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FC1C8D614D7720C00A71083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FC1C8D514D7720C00A71083 /* spatialMedia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FC1C8D814D7720C00A71083 /* spatialMedia */ = {
+			isa = PBXGroup;
+			children = (
+				7FC1C8D914D7720C00A71083 /* platform */,
+				7FC1C8EB14D7720C00A71083 /* application */,
+			);
+			path = spatialMedia;
+			sourceTree = "<group>";
+		};
+		7FC1C8D914D7720C00A71083 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				7FC1C8DA14D7720C00A71083 /* Debug.xcconfig */,
+				7FC1C8DB14D7720C00A71083 /* Release.xcconfig */,
+				7FC1C8DC14D7720C00A71083 /* AppDelegate.h */,
+				7FC1C8DD14D7720C00A71083 /* AppDelegate.mm */,
+				7FC1C8DF14D7720C00A71083 /* en.strings */,
+				7FC1C8E114D7720C00A71083 /* main.m */,
+				7FC1C8E314D7720C00A71083 /* main.pch */,
+				7FC1C8E514D7720C00A71083 /* main.plist */,
+				7FC1C8E614D7720C00A71083 /* main.xib */,
+				7FC1C8E814D7720C00A71083 /* poOpenGLView.h */,
+				7FC1C8E914D7720C00A71083 /* poOpenGLView.mm */,
+			);
+			name = platform;
+			sourceTree = "<group>";
+		};
+		7FC1C8EB14D7720C00A71083 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				7FC1C8EC14D7720C00A71083 /* spatialMediaApp.h */,
+				7FC1C8ED14D7720C00A71083 /* spatialMediaApp.cpp */,
+				7FC1C8EF14D7720C00A71083 /* AppConfig.cpp */,
+			);
+			name = application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FC1C8D414D7720C00A71083 /* spatialMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC1C8F314D7720C00A71083 /* Build configuration list for PBXNativeTarget "spatialMedia" */;
+			buildPhases = (
+				7FC1C8D114D7720C00A71083 /* Sources */,
+				7FC1C8D214D7720C00A71083 /* Frameworks */,
+				7FC1C8D314D7720C00A71083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spatialMedia;
+			productName = spatialMedia;
+			productReference = 7FC1C8D514D7720C00A71083 /* spatialMedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FC1C8CC14D7720C00A71083 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7FC1C8CF14D7720C00A71083 /* Build configuration list for PBXProject "spatialMedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FC1C8CA14D7720C00A71083;
+			productRefGroup = 7FC1C8D614D7720C00A71083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FC1C8D414D7720C00A71083 /* spatialMedia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FC1C8D314D7720C00A71083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC1C8E014D7720C00A71083 /* en.strings in Resources */,
+				7FC1C8E414D7720C00A71083 /* main.pch in Resources */,
+				7FC1C8E714D7720C00A71083 /* main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FC1C8D114D7720C00A71083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC1C8DE14D7720C00A71083 /* AppDelegate.mm in Sources */,
+				7FC1C8E214D7720C00A71083 /* main.m in Sources */,
+				7FC1C8EA14D7720C00A71083 /* poOpenGLView.mm in Sources */,
+				7FC1C8EE14D7720C00A71083 /* spatialMediaApp.cpp in Sources */,
+				7FC1C8F014D7720C00A71083 /* AppConfig.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7FC1C8F114D7720C00A71083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC1C8DA14D7720C00A71083 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7FC1C8F214D7720C00A71083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC1C8DB14D7720C00A71083 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		7FC1C8F414D7720C00A71083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		7FC1C8F514D7720C00A71083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FC1C8CF14D7720C00A71083 /* Build configuration list for PBXProject "spatialMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC1C8F114D7720C00A71083 /* Debug */,
+				7FC1C8F214D7720C00A71083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FC1C8F314D7720C00A71083 /* Build configuration list for PBXNativeTarget "spatialMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC1C8F414D7720C00A71083 /* Debug */,
+				7FC1C8F514D7720C00A71083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FC1C8CC14D7720C00A71083 /* Project object */;
+}
