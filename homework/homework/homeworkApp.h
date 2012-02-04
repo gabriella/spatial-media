@@ -24,13 +24,17 @@ public:
     virtual void update();
     
     virtual void draw();
+    
 	
     virtual void eventHandler(poEvent *event);
 	
     virtual void messageHandler(const std::string &msg, const poDictionary& dict=poDictionary());
     
+    
+    
     //virtual void drawGrid1(int W, int H);
     void drawGrid2(int X, int Y);
+    void drawGrid3(int G,int H);
     int X;
     int Y;
     int W;
@@ -42,5 +46,6 @@ public:
     poRectShape* redRect;
     int mouseX, mouseY;
     bool mouseOvr;
+    char lastkeydown;
 };
 

@@ -24,6 +24,7 @@ homeworkApp::homeworkApp() {
     //redRect->addEvent(PO_MOUSE_OVER_EVENT, this);//mouse over event for changing color of square
    addEvent(PO_MOUSE_OVER_EVENT, this);//mouse over event for changing color of square
     addEvent(PO_MOUSE_MOVE_EVENT, this);
+   // addEvent(PO_MOUSE_DOWN_EVENT), this);
     X = 0;
     Y = 0;
     W=0;
@@ -31,6 +32,7 @@ homeworkApp::homeworkApp() {
     
     mouseX=0;
     mouseY =0;
+    lastkeydown='1';
     
 
     //A->setText("the coord is %i %i  \n”", X,Y);
@@ -72,10 +74,23 @@ void homeworkApp::draw() {
     //int X; 
     //int Y;
     
+    if(lastkeydown=='1'){
+        drawGrid1(W, H);
     
-       drawGrid1(W, H);
     drawGrid2(X,Y);
+}
+if(lastkeydown=='2'){
+    drawGrid3(100,100);
+    
+}
+       if(lastkeydown=='3'){
 
+          drawGrid3(100,100);
+           drawGrid1(W, H);
+           drawGrid2(X,Y);
+
+
+       }
 }
 
 
@@ -109,7 +124,7 @@ void homeworkApp::eventHandler(poEvent *event) {
             
             Y=Y+30;
         }
-        
+        lastkeydown=event->keyChar;
     }
     
     else if(event->type==PO_MOUSE_OVER_EVENT)
@@ -154,8 +169,8 @@ void homeworkApp::drawGrid1(int W_, int H_){
     //  myRect->position.set(W_, H_,0);
     //myRect->fillColor = poColor::white;
     //addChild(myRect);
-    for (int W_=0;W_<=getWindowWidth();W_=W_+30){
-        for(int H_ = 0;H_<=getWindowHeight();H_=H_+30)  {
+    for (int W_=0;W_<=getWindowWidth();W_=W_+20){
+        for(int H_ = 0;H_<=getWindowHeight();H_=H_+20)  {
             po::setColor(poColor::white);
             po::drawFilledRect(W_,H_,10,10); 
 
@@ -171,8 +186,8 @@ void homeworkApp::drawGrid2(int X_, int Y_){
 //    redRect->position.set(X,Y, 0);
 //    addChild(redRect);
     //if(isRed == true){
-    for (int X_=0;X_<=getWindowWidth();X_=X_+30){
-        for(int Y_ = 0;Y_<=getWindowHeight();Y_=Y_+30)  {
+    for (int X_=0;X_<=getWindowWidth();X_=X_+20){
+        for(int Y_ = 0;Y_<=getWindowHeight();Y_=Y_+20)  {
 
     //cout<<Y_<<X_;
     
@@ -193,7 +208,15 @@ void homeworkApp::drawGrid2(int X_, int Y_){
     cout<<X;    
 }
 
-
-
-//how to get the arrow keys to work
-//
+void homeworkApp::drawGrid3(int G_, int H_){
+    cout<<"3";
+    for(int x=0;x<G_;x++)
+    {
+        for(int y=0;y<H_;y++)
+        {
+            po::setColor(poColor::red);
+            po::drawFilledRect(10+x*20, 10+y*20, 10,10);
+        }
+    
+    }
+}
