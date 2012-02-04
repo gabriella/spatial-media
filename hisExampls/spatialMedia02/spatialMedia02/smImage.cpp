@@ -20,7 +20,7 @@ smImage::smImage( const char* fileName, int W, int H )
     // load in the image data from file
     FILE* F = fopen( fileName, "rb" );                  // open a file
     if(F==NULL){
-        printf ("ERROR: can't find file\n"  ); 
+        printf("ERROR: can't find file: %s\n", fileName );
         exit(0);
     
     }
@@ -30,6 +30,8 @@ smImage::smImage( const char* fileName, int W, int H )
     
     // used for fastDraw method
     imageAsTexture = new poTexture( width, height, imageData, poTextureConfig(GL_LUMINANCE) );
+    
+    
 }
 
 int     smImage::getPixel( int x, int y )
@@ -67,6 +69,12 @@ void    smImage::fastDraw()
     imageAsTexture->replace( imageData );
     // draw the texture
     po::drawTexturedRect( imageAsTexture, poRect(0,500,500,-500) );
+}
+
+void smImage::invert()
+{
+    
+    
 }
 
 

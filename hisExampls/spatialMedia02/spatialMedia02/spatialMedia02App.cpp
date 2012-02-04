@@ -14,7 +14,7 @@ spatialMedia02App::spatialMedia02App() {
     addEvent( PO_KEY_DOWN_EVENT, this );
 
     // make a new smImage
-    myImage = new smImage( "Mouse.raw", 100, 100 );
+    myImage = new smImage( "/pocode/Spatial_Media/hisExampls/spatialMedia02/build/Debug/Mouse.raw", 100, 100 );
 }
 
 // APP DESTRUCTOR. Delete all objects here.
@@ -31,6 +31,12 @@ void spatialMedia02App::draw() {
 	
     // draw the image
     myImage->draw();
+    if(lastKeyDown=='2')
+    {
+        myImage->invert();
+        
+    }
+    
 }
 
 // EVENT HANDLER. Called when events happen. Respond to events here.
@@ -45,6 +51,7 @@ void spatialMedia02App::eventHandler(poEvent *event) {
     if ( event->type == PO_KEY_DOWN_EVENT )
     {
         lastKeyDown = event->keyChar;
+    
     }
 }
 

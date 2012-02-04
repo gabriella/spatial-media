@@ -16,6 +16,8 @@ public:
     // draw image methods
     void    draw();
     void    fastDraw();
+    void invert();
+
     
     // get and set pixel methods
     int     getPixel( int x, int y );
@@ -24,9 +26,11 @@ public:
     // image data variables
     int             width, height;
     unsigned char*  imageData;
+    
 
     // this poTexture is used for the fastDraw method
     poTexture*      imageAsTexture;
+    
 };
 
 
