@@ -40,6 +40,9 @@ void spatialMedia02App::draw() {
         
         myImage->flipVertical();
     }
+    else if(lastKeyDown=='4'){
+        myImage->blackAndWhite();
+    }
     else
     {
      myImage->draw();
@@ -57,8 +60,7 @@ void spatialMedia02App::eventHandler(poEvent *event) {
     
     if ( event->type == PO_KEY_DOWN_EVENT )
     {
-        lastKeyDown = event->keyChar;
-    
+        lastKeyDown = event->keyChar; 
     }
 }
 

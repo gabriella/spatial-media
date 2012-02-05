@@ -110,18 +110,33 @@ void smImage::flipVertical(){
         
             col = col/255;
             
-            
-            
             po::setColor(poColor(col, col, col));
             po::drawFilledRect(x*5,y*5, 5, 5);
             
-            
-                   
-            
+        }
+    } 
+}
+
+void smImage::blackAndWhite(){
+  
+    for(int x=0;x<width;x++){
+        for(int y=0;y<height;y++){
+            int newPixelCol = 0;
+            float threshold = getPixel(x,y);
+            if(threshold/255>0.5){
+                newPixelCol=1;
+            }
+            else if(threshold/255<0/5){
+                newPixelCol=0;
+            }
+            po::setColor(poColor(newPixelCol, newPixelCol, newPixelCol));
+                         po::drawFilledRect(x*5, y*5, 5,5);
+            }
         }
     }
-    
-}
+
+
+
 
 //can i use set pixel
 
