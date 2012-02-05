@@ -46,6 +46,9 @@ void spatialMedia02App::draw() {
     else if(lastKeyDown=='5'){
         myImage->threshold();
     }
+    else if(lastKeyDown=='6'){
+       myImage->edgeDetect();
+    }
     else
     {
      myImage->draw();

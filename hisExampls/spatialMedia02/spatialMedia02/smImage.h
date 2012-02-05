@@ -20,6 +20,7 @@ public:
     void flipVertical();
     void blackAndWhite();
     void threshold();
+    void edgeDetect();
     
     // get and set pixel methods
     int     getPixel( int x, int y );

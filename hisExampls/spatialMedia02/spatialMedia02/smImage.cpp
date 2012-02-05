@@ -150,15 +150,44 @@ void smImage::threshold(){
             }
             po::setColor(poColor(myCol, myCol, myCol));
             po::drawFilledRect(x*5, y*5, 5, 5);
+                  }
+    }
+    
+}
+
+void smImage::edgeDetect(){
+    for(int x=0;x<width;x++){
+        for(int y=0;y<height;y++){
+            int T=0.5;
+            int myCol = 0;
             
+            int index = x+y*width;
+            float data = imageData[index];
+            
+            int indexRight = x+1+y*width;
+            float dataRight = imageData[indexRight];
+            
+            if (data - dataRight>T)
+            {
+                myCol = 0;
+            }
+            else
+            {
+                myCol=1;
+            }
+            po::setColor(poColor(myCol, myCol, myCol));
+                         po::drawFilledRect(x*5, y*5, 5, 5);
         }
     }
     
 }
 
-
 //can i use set pixel??????
 
+//6 : what should the threshold be?
+//absolute value?
+
+//is there a way to set the function of the 2d array so i dont have to loop through by hand all the time? 
 //is black and white correct?
 
 //i'm sorta doing this stupidly by drawing many 1x1 pixels. 
@@ -169,5 +198,7 @@ void smImage::threshold(){
 
 //do i need to set up mousex as a "globalposition.x in here AND in the main class? no right? 
 //ie how to get one global varable from the main app in to here?
+
+//should I be precise about only using 0 to 255, ie shoudl I set a max and minimum and if so how? 
 
 
