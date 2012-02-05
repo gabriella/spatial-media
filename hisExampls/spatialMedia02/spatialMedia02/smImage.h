@@ -17,6 +17,7 @@ public:
     void    draw();
     void    fastDraw();
     void invert();
+    void flipVertical();
 
     
     // get and set pixel methods

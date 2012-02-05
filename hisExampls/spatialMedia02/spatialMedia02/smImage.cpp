@@ -6,6 +6,8 @@
 #include "smImage.h"
 #include "poSimpleDrawing.h"
 #include "poApplication.h"
+using namespace po;
+using namespace std;
 
 
 smImage::smImage( const char* fileName, int W, int H )
@@ -13,6 +15,8 @@ smImage::smImage( const char* fileName, int W, int H )
     // set the image width and height
     width = W;
     height = H;
+    int x=0;
+    int y=0;
     
     //open the file, allocate memory for it, read through the image, put in image date
     
@@ -72,19 +76,60 @@ void    smImage::fastDraw()
 }
 
 void smImage::invert()
-{
-    
+{   
+    for (int x=0;x<width;x++)
+    {
+        for(int y=0;y<height;y++){
+            float brightness = getPixel(x,y);//variable for brightness
+            
+            brightness = 1/brightness;
+            brightness = brightness*10;//WHY?!?!?!!??
+            //cout<<brightness;
+//            int index = x+y*width;
+//            for (int i=0;i<500;i++){
+//            cout<<imageData[index];
+//            }      
+            //how to debug what's going on
+            
+            //drawImage: 
+            po::setColor( poColor( brightness, brightness, brightness) );  // set the color
+            po::drawFilledRect( x*5,y*5, 5, 5 );        // draw the "pixel" rectangle
+        }
+    }
+}
+void smImage::flipVertical(){
+    for (int x=0;x<width;x++)
+    {
+        for(int y=0;y<height;y++){
+                       
+          //mirrored  int index = (width-1-x)+y*width;
+            int index = x+(height-1-y)*width;
+       
+            float col = imageData[index];
+            //float col = getPixel(x,y);
+        
+            col = col/255;
+            
+            
+            
+            po::setColor(poColor(col, col, col));
+            po::drawFilledRect(x*5,y*5, 5, 5);
+            
+            
+                   
+            
+        }
+    }
     
 }
 
+//can i use set pixel
 
 
 
-
-
-
-
-
+//i'm sorta doing this stupidly by drawing many 1x1 pixels. 
+//why does this in flip vertical fuck everything up
+//why am i confused how to use setpixel
 
 
 

@@ -30,13 +30,20 @@ void spatialMedia02App::update() {
 void spatialMedia02App::draw() {
 	
     // draw the image
-    myImage->draw();
+   
     if(lastKeyDown=='2')
     {
         myImage->invert();
         
     }
-    
+    else if(lastKeyDown=='3'){
+        
+        myImage->flipVertical();
+    }
+    else
+    {
+     myImage->draw();
+    }
 }
 
 // EVENT HANDLER. Called when events happen. Respond to events here.
