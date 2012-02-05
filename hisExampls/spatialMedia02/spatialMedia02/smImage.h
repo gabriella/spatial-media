@@ -19,7 +19,7 @@ public:
     void invert();
     void flipVertical();
     void blackAndWhite();
-
+    void threshold();
     
     // get and set pixel methods
     int     getPixel( int x, int y );
@@ -29,9 +29,12 @@ public:
     int             width, height;
     unsigned char*  imageData;
     
-
+    int mouseX;
     // this poTexture is used for the fastDraw method
     poTexture*      imageAsTexture;
+    
+    
+    
     
 };
 

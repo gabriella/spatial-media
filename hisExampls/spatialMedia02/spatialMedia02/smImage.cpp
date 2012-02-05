@@ -135,12 +135,31 @@ void smImage::blackAndWhite(){
         }
     }
 
+void smImage::threshold(){
+    for(int x=0;x<width;x++){
+        for (int y=0;y<height;y++){
+            int T = mouseX;//127  mousex; //spatialMedia02App->mousex;
+            float myCol = getPixel(x,y);
+           
+            
+            if(myCol>T){
+                myCol = 1;
+            }
+            else{
+                myCol=0;
+            }
+            po::setColor(poColor(myCol, myCol, myCol));
+            po::drawFilledRect(x*5, y*5, 5, 5);
+            
+        }
+    }
+    
+}
 
 
+//can i use set pixel??????
 
-//can i use set pixel
-
-
+//is black and white correct?
 
 //i'm sorta doing this stupidly by drawing many 1x1 pixels. 
 //why does this in flip vertical fuck everything up
@@ -148,6 +167,7 @@ void smImage::blackAndWhite(){
 
 
 
-
+//do i need to set up mousex as a "globalposition.x in here AND in the main class? no right? 
+//ie how to get one global varable from the main app in to here?
 
 

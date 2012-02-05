@@ -43,6 +43,9 @@ void spatialMedia02App::draw() {
     else if(lastKeyDown=='4'){
         myImage->blackAndWhite();
     }
+    else if(lastKeyDown=='5'){
+        myImage->threshold();
+    }
     else
     {
      myImage->draw();
@@ -56,6 +59,11 @@ void spatialMedia02App::eventHandler(poEvent *event) {
     {
         mouseX = event->globalPosition.x;
         mouseY = event->globalPosition.y;
+        
+        
+        myImage->mouseX = mouseX;
+        
+        
     }
     
     if ( event->type == PO_KEY_DOWN_EVENT )
