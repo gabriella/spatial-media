@@ -38,16 +38,16 @@ smImage::smImage( const char* fileName, int W, int H )
     
 }
 
-int     smImage::getPixel( int x, int y )
+int     smImage::getPixel( int x_, int y_ )
 {
-    int index = x + y*width;                    // calculate the pixel index
+    int index = x_ + y_*width;                    // calculate the pixel index
     return imageData[index];                    // return the pixel
 }
 
-void    smImage::setPixel( int x, int y, int grayValue )
+void    smImage::setPixel( int x_, int y_, int grayValue_ )
 {
-    int index = x + y*width;                    // calculate the pixel index
-    imageData[index] = grayValue;               // set the pixel
+    int index = x_ + y_*width;                    // calculate the pixel index
+    imageData[index] = grayValue_/255;               // set the pixel
 }
 
 void    smImage::draw()
@@ -61,8 +61,10 @@ void    smImage::draw()
         {
             float grayValue = getPixel(x,y);            // get the gray value
             grayValue = grayValue / 255;                // convert from 0-255 to 0.0-1.0
-            po::setColor( poColor( grayValue, grayValue, grayValue) );  // set the color
-            po::drawFilledRect( x*5,y*5, 5, 5 );        // draw the "pixel" rectangle
+            
+          //  setPixel(x,y,grayValue);
+     po::setColor( poColor( grayValue, grayValue, grayValue) );  // set the color
+           po::drawFilledRect( x*5,y*5, 5, 5 );        // draw the "pixel" rectangle
         }
     }
 }
@@ -148,8 +150,9 @@ void smImage::threshold(){
             else{
                 myCol=0;
             }
+            //setPixel(x, y, myCol);
             po::setColor(poColor(myCol, myCol, myCol));
-            po::drawFilledRect(x*5, y*5, 5, 5);
+           po::drawFilledRect(x*5, y*5, 5, 5);
                   }
     }
     

@@ -7,8 +7,7 @@
 #include "poApplication.h"
 #include "poCamera.h"
 //#include "poShapeBasics2D.h"
-#include "poSimpleDrawing.h"
-#include "poTextBox.h"										// include poTextBox.h to be able to use poTextBox
+#include "poSimpleDrawing.h"									// include poTextBox.h to be able to use poTextBox
 using namespace po;
 using namespace std;
 
@@ -36,9 +35,10 @@ homeworkApp::homeworkApp() {
     
 
     //A->setText("the coord is %i %i  \n”", X,Y);
-    std::stringstream s;
+    
+    stringstream s;
     s<<"x: "<<X_ << "y;  " << Y_;
-    poTextBox* A = new poTextBox(150,150);				// Specify the width and height of the text box (optional)
+    A = new poTextBox(150,150);				// Specify the width and height of the text box (optional)
     A->setText(s.str());
     A->setFont(poGetFont("Helvetica", "Regular"));
                A->setTextSize(30);
@@ -62,18 +62,18 @@ homeworkApp::~homeworkApp() {
 void homeworkApp::update() {
 	if(mouseOvr == true){
         
-        X=mouseX;
+        /*X=mouseX;
         Y=mouseY;
-       
+        stringstream s;
+        s<<"x: "<<X << "y;  " << Y;
+        A->setText(s.str());
+        A->doLayout();*/
     }
 }
 
 // DRAW. Called once per frame. Draw objects here.
 void homeworkApp::draw() {
-//    int W;
-//    int  H;
-    //int X; 
-    //int Y;
+
     
     if(lastkeydown=='1'){
         drawGrid1(W, H);
@@ -144,7 +144,7 @@ void homeworkApp::eventHandler(poEvent *event) {
                    // isRed = true;
 //                   X=mouseX;
 //                   Y=mouseY;
-                   mouseOvr=!mouseOvr;
+                  // mouseOvr=!mouseOvr;
                    cout<< "mouseOvr";
 
               //  }
@@ -195,10 +195,10 @@ void homeworkApp::drawGrid2(int X_, int Y_){
     //cout<<Y_<<X_;
     
     if(mouseX>X_+10||mouseX<X_-10||mouseY>Y_+10||mouseY<Y_-10){
-        stringstream adder;
-        adder<<"X is "<<mouseX<< "\nY is "<< mouseY<<"n";
+        //stringstream adder;
+        //adder<<"X is "<<mouseX<< "\nY is "<< mouseY<<"n";
         //cout <<adder;
-        cout<<"X is "<<mouseX<< "\nY is "<< mouseY<<"\n";
+        //cout<<"X is "<<mouseX<< "\nY is "<< mouseY<<"\n";
       //  A->setText(adder.str());
         
     po::setColor(poColor::white);

@@ -7,6 +7,7 @@
 #include "poEnums.h"
 #include "poDictionary.h"
 #include <iostream>
+#include "poTextBox.h"	
 
 
 
@@ -30,7 +31,7 @@ public:
 	
     virtual void messageHandler(const std::string &msg, const poDictionary& dict=poDictionary());
     
-    
+       
     
     //virtual void drawGrid1(int W, int H);
     void drawGrid2(int X, int Y);
@@ -42,6 +43,8 @@ public:
     int X_;
     int Y_;
     void drawGrid1(int W, int H);
+    
+    poTextBox* A;
 
     poRectShape* redRect;
     int mouseX, mouseY;
