@@ -1,5 +1,5 @@
 dependencies: \
-  /pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/spatialMedia02/AppConfig.cpp \
+  /Users/administrator/Documents/pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/spatialMedia02/AppConfig.cpp \
   /pocode/libraries/pocode/include/poApplication.h \
   /pocode/libraries/pocode/include/poWindow.h \
   /pocode/libraries/pocode/include/common.h \
@@ -228,7 +228,7 @@ dependencies: \
   /pocode/libraries/Boost/boost_1_45_0/boost/preprocessor/detail/is_nullary.hpp \
   /pocode/libraries/Boost/boost_1_45_0/boost/preprocessor/detail/check.hpp \
   /pocode/libraries/Boost/boost_1_45_0/boost/signals2/shared_connection_block.hpp \
-  /pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/spatialMedia02/spatialMedia02App.h \
+  /Users/administrator/Documents/pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/spatialMedia02/spatialMedia02App.h \
   /pocode/libraries/pocode/include/poObject.h \
   /pocode/libraries/pocode/include/poTween.h \
   /pocode/libraries/pocode/include/poEasingFunctions.h \
@@ -298,5 +298,5 @@ dependencies: \
   /pocode/libraries/glm/gtc/matrix_transform.hpp \
   /pocode/libraries/glm/gtc/matrix_transform.inl \
   /pocode/libraries/pocode/include/poObjectModifier.h \
-  /pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/spatialMedia02/smImage.h \
+  /Users/administrator/Documents/pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/spatialMedia02/smImage.h \
   /pocode/libraries/pocode/include/poTexture.h

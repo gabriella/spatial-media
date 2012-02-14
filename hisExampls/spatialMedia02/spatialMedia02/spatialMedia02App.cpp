@@ -14,7 +14,7 @@ spatialMedia02App::spatialMedia02App() {
     addEvent( PO_KEY_DOWN_EVENT, this );
 
     // make a new smImage
-    myImage = new smImage( "/pocode/Spatial_Media/hisExampls/spatialMedia02/build/Debug/Mouse.raw", 100, 100 );
+    myImage = new smImage( "Mouse.raw", 100, 100 );
 }
 
 // APP DESTRUCTOR. Delete all objects here.

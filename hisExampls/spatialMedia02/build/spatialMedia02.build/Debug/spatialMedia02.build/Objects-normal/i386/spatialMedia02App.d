@@ -1,6 +1,6 @@
 dependencies: \
-  /pocode/Spatial_Media/hisExampls/spatialMedia02/spatialMedia02/spatialMedia02App.cpp \
-  /pocode/Spatial_Media/hisExampls/spatialMedia02/spatialMedia02/spatialMedia02App.h \
+  /Users/administrator/Documents/pocode/Spatial_Media/hisExampls/spatialMedia02/spatialMedia02/spatialMedia02App.cpp \
+  /Users/administrator/Documents/pocode/Spatial_Media/hisExampls/spatialMedia02/spatialMedia02/spatialMedia02App.h \
   /pocode/libraries/pocode/include/poObject.h \
   /pocode/libraries/pocode/include/common.h \
   /pocode/libraries/pocode/include/poTween.h \
@@ -114,7 +114,7 @@ dependencies: \
   /pocode/libraries/glm/gtc/matrix_transform.hpp \
   /pocode/libraries/glm/gtc/matrix_transform.inl \
   /pocode/libraries/pocode/include/poObjectModifier.h \
-  /pocode/Spatial_Media/hisExampls/spatialMedia02/spatialMedia02/smImage.h \
+  /Users/administrator/Documents/pocode/Spatial_Media/hisExampls/spatialMedia02/spatialMedia02/smImage.h \
   /pocode/libraries/pocode/include/poTexture.h \
   /pocode/libraries/pocode/include/poApplication.h \
   /pocode/libraries/pocode/include/poWindow.h \

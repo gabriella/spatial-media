@@ -1,0 +1,320 @@
+Thomework
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/Info.plist platform/main.plist
+cProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-fonhalmugvmxblcrhtbiixfegrug/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-hgqrewwynlliufcymrzkhcufelvl/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-boeqymukgyykflazyqfmpqwowgdb/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/homework.build/Debug/homework.build/Objects-normal/i386/AppDelegate.o /pocode/Spatial_Media/homework/homework/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/homework.build/Debug/homework.build/Objects-normal/i386/poOpenGLView.o /pocode/Spatial_Media/homework/homework/../platform/poOpenGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/homework.build/Debug/homework.build/Objects-normal/i386/main.o /pocode/Spatial_Media/homework/homework/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/homework.build/Debug/homework.build/Objects-normal/i386/homeworkApp.o /pocode/Spatial_Media/homework/homework/homeworkApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/homework.build/Debug/homework.build/Objects-normal/i386/AppConfig.o /pocode/Spatial_Media/homework/homework/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/MacOS/homework normal i386
+cCopyStringsFile /pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/Resources/en.strings homework/../platform/en.strings
+cCpResource platform/main.pch build/Debug/homework.app/Contents/Resources/main.pch
+cCompileXIB /pocode/Spatial_Media/homework/homework/../platform/main.xib
+cTouch /pocode/Spatial_Media/homework/build/Debug/homework.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004F23212800000000000000EE
+t1327702312
+s238
+
+N/pocode/Spatial_Media/homework/build/Debug/homework.app
+t2
+s0
+
+N/pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/Info.plist
+t2
+s0
+
+N/pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/MacOS/homework
+t2
+s0
+
+N/pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/PkgInfo
+t2
+s0
+
+N/pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/Resources/en.strings
+t2
+s0
+
+N/pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/Resources/main.nib
+t2
+s0
+
+N/pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/Resources/main.pch
+t2
+s0
+
+N/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/Objects-normal/i386/AppConfig.o
+t2
+s0
+
+N/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/Objects-normal/i386/homework.LinkFileList
+c000000004F3AD818000000000000020F
+t1329256472
+s527
+
+N/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/Objects-normal/i386/homeworkApp.o
+t2
+s0
+
+N/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/Objects-normal/i386/poOpenGLView.o
+t2
+s0
+
+N/pocode/Spatial_Media/homework/homework/../platform/AppDelegate.mm
+c000000004F2595610000000000001E1D
+t1327863137
+s7709
+
+N/pocode/Spatial_Media/homework/homework/../platform/en.strings
+c000000004F259561000000000000002D
+t1327863137
+s45
+
+N/pocode/Spatial_Media/homework/homework/../platform/main.m
+c000000004F2595610000000000000077
+t1327863137
+s119
+
+N/pocode/Spatial_Media/homework/homework/../platform/main.xib
+c000000004F2595610000000000006176
+t1327863137
+s24950
+
+N/pocode/Spatial_Media/homework/homework/../platform/poOpenGLView.mm
+c000000004F25956100000000000012F4
+t1327863137
+s4852
+
+N/pocode/Spatial_Media/homework/homework/AppConfig.cpp
+c000000004F2595610000000000000187
+t1327863137
+s391
+
+N/pocode/Spatial_Media/homework/homework/homeworkApp.cpp
+c000000004F31770D00000000000015E8
+t1328641805
+s5608
+
+N/pocode/Spatial_Media/homework/platform/main.pch
+c000000004F2595610000000000000000
+t1327863137
+s0
+
+N/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-boeqymukgyykflazyqfmpqwowgdb/main.pch.pth
+t2
+s0
+
+N/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-fonhalmugvmxblcrhtbiixfegrug/main.pch.pth
+t2
+s0
+
+N/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-hgqrewwynlliufcymrzkhcufelvl/main.pch.pth
+t2
+s0
+
+Nplatform/main.plist
+c000000004F25956100000000000003E2
+t1327863137
+s994
+
+CBuild AST from /pocode/Spatial_Media/homework/homework/../platform/AppDelegate.mm
+r0
+
+CBuild AST from /pocode/Spatial_Media/homework/homework/../platform/main.m
+r0
+
+CBuild AST from /pocode/Spatial_Media/homework/homework/../platform/poOpenGLView.mm
+r0
+
+CBuild AST from /pocode/Spatial_Media/homework/homework/AppConfig.cpp
+r0
+
+CBuild AST from /pocode/Spatial_Media/homework/homework/homeworkApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies348615980febb441^02f427990febb441^---0#1#0#--18"Check dependencies36"D317F00D-E94A-487E-825B-5385BF4E1045-
+
+CCompileC build/homework.build/Debug/homework.build/Objects-normal/i386/AppConfig.o /pocode/Spatial_Media/homework/homework/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s350949275.786615
+e350949341.563833
+r1
+xCompileC
+xbuild/homework.build/Debug/homework.build/Objects-normal/i386/AppConfig.o
+x/pocode/Spatial_Media/homework/homework/AppConfig.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /pocode/Spatial_Media/homework/homework/AppConfig.cppcb86c99b0febb441^b05790dd0febb441^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/pocode/Spatial_Media/homework/homework/AppConfig.cpp0000000000000000^2250"CompileC build/homework.build/Debug/homework.build/Objects-normal/i386/AppConfig.o homework/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /pocode/Spatial_Media/homework    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-generated-files.hmap -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-own-target-headers.hmap -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-all-target-headers.hmap -iquote /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-project-headers.hmap -iquote/pocode/libraries/pocode -I/pocode/Spatial_Media/homework/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/DerivedSources/i386 -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/DerivedSources -F/pocode/Spatial_Media/homework/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-hgqrewwynlliufcymrzkhcufelvl/main.pch -MMD -MT dependencies -MF /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/Objects-normal/i386/AppConfig.d -c /pocode/Spatial_Media/homework/homework/AppConfig.cpp -o /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/Objects-normal/i386/AppConfig.o36"AE55229D-3A99-48FA-A31B-57BBBB63627D-
+
+CCompileC build/homework.build/Debug/homework.build/Objects-normal/i386/AppDelegate.o /pocode/Spatial_Media/homework/homework/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s350949273.585918
+e350949345.141380
+r1
+xCompileC
+xbuild/homework.build/Debug/homework.build/Objects-normal/i386/AppDelegate.o
+x/pocode/Spatial_Media/homework/homework/../platform/AppDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /pocode/Spatial_Media/homework/homework/../platform/AppDelegate.mm6c2396990febb441^873624e10febb441^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/pocode/Spatial_Media/homework/homework/../platform/AppDelegate.mm0000000000000000^2478"CompileC build/homework.build/Debug/homework.build/Objects-normal/i386/AppDelegate.o homework/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /pocode/Spatial_Media/homework    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-generated-files.hmap -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-own-target-headers.hmap -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-all-target-headers.hmap -iquote /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-project-headers.hmap -iquote/pocode/libraries/pocode -I/pocode/Spatial_Media/homework/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/DerivedSources/i386 -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/DerivedSources -F/pocode/Spatial_Media/homework/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-fonhalmugvmxblcrhtbiixfegrug/main.pch -MMD -MT dependencies -MF /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/Objects-normal/i386/AppDelegate.d -c /pocode/Spatial_Media/homework/homework/../platform/AppDelegate.mm -o /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/Objects-normal/i386/AppDelegate.o36"5593E2DC-6CAD-46E1-83D9-21829A33984D-
+
+CCompileC build/homework.build/Debug/homework.build/Objects-normal/i386/homeworkApp.o /pocode/Spatial_Media/homework/homework/homeworkApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s350949273.589731
+e350949344.226188
+r1
+xCompileC
+xbuild/homework.build/Debug/homework.build/Objects-normal/i386/homeworkApp.o
+x/pocode/Spatial_Media/homework/homework/homeworkApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /pocode/Spatial_Media/homework/homework/homeworkApp.cppd12297990febb441^0bec39e00febb441^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/pocode/Spatial_Media/homework/homework/homeworkApp.cpp0000000000000000^2260"CompileC build/homework.build/Debug/homework.build/Objects-normal/i386/homeworkApp.o homework/homeworkApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /pocode/Spatial_Media/homework    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-generated-files.hmap -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-own-target-headers.hmap -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-all-target-headers.hmap -iquote /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-project-headers.hmap -iquote/pocode/libraries/pocode -I/pocode/Spatial_Media/homework/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/DerivedSources/i386 -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/DerivedSources -F/pocode/Spatial_Media/homework/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-hgqrewwynlliufcymrzkhcufelvl/main.pch -MMD -MT dependencies -MF /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/Objects-normal/i386/homeworkApp.d -c /pocode/Spatial_Media/homework/homework/homeworkApp.cpp -o /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/Objects-normal/i386/homeworkApp.o36"83AFBB2C-88AB-472E-820C-8DA2489E6BF5-
+
+CCompileC build/homework.build/Debug/homework.build/Objects-normal/i386/main.o /pocode/Spatial_Media/homework/homework/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350949273.587794
+e350949275.785165
+r1
+xCompileC
+xbuild/homework.build/Debug/homework.build/Objects-normal/i386/main.o
+x/pocode/Spatial_Media/homework/homework/../platform/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /pocode/Spatial_Media/homework/homework/../platform/main.me49e96990febb441^0801c99b0febb441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/pocode/Spatial_Media/homework/homework/../platform/main.m0000000000000000^2377"CompileC build/homework.build/Debug/homework.build/Objects-normal/i386/main.o homework/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /pocode/Spatial_Media/homework    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-generated-files.hmap -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-own-target-headers.hmap -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-all-target-headers.hmap -iquote /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-project-headers.hmap -iquote/pocode/libraries/pocode -I/pocode/Spatial_Media/homework/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/DerivedSources/i386 -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/DerivedSources -F/pocode/Spatial_Media/homework/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-boeqymukgyykflazyqfmpqwowgdb/main.pch -MMD -MT dependencies -MF /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/Objects-normal/i386/main.d -c /pocode/Spatial_Media/homework/homework/../platform/main.m -o /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/Objects-normal/i386/main.o36"C3AD6E38-B16F-4B08-A2C6-EC553A8CC50B-
+
+CCompileC build/homework.build/Debug/homework.build/Objects-normal/i386/poOpenGLView.o /pocode/Spatial_Media/homework/homework/../platform/poOpenGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s350949273.586298
+e350949340.610132
+r1
+xCompileC
+xbuild/homework.build/Debug/homework.build/Objects-normal/i386/poOpenGLView.o
+x/pocode/Spatial_Media/homework/homework/../platform/poOpenGLView.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /pocode/Spatial_Media/homework/homework/../platform/poOpenGLView.mm5c3a96990febb441^ba329cdc0febb441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/pocode/Spatial_Media/homework/homework/../platform/poOpenGLView.mm0000000000000000^2483"CompileC build/homework.build/Debug/homework.build/Objects-normal/i386/poOpenGLView.o homework/../platform/poOpenGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /pocode/Spatial_Media/homework    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-generated-files.hmap -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-own-target-headers.hmap -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-all-target-headers.hmap -iquote /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-project-headers.hmap -iquote/pocode/libraries/pocode -I/pocode/Spatial_Media/homework/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/DerivedSources/i386 -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/DerivedSources -F/pocode/Spatial_Media/homework/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-fonhalmugvmxblcrhtbiixfegrug/main.pch -MMD -MT dependencies -MF /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/Objects-normal/i386/poOpenGLView.d -c /pocode/Spatial_Media/homework/homework/../platform/poOpenGLView.mm -o /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/Objects-normal/i386/poOpenGLView.o36"C47C98B6-6526-4EEA-B654-DBB0A9F332D1-
+
+CCompileXIB /pocode/Spatial_Media/homework/homework/../platform/main.xib
+s350949346.016895
+e350949346.894590
+r1
+xCompileXIB
+x/pocode/Spatial_Media/homework/homework/../platform/main.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compiling /pocode/Spatial_Media/homework/homework/../platform/main.xib056b04e20febb441^9f05e5e20febb441^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/pocode/Spatial_Media/homework/homework/../platform/main.xib0000000000000000^425"CompileXIB homework/../platform/main.xib    cd /pocode/Spatial_Media/homework    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/Resources/main.nib /pocode/Spatial_Media/homework/homework/../platform/main.xib --sdk /Developer/SDKs/MacOSX10.6.sdk36"ACCAFEC2-589D-4EF8-BBBD-0E8AD524E55B-
+
+CCopyStringsFile /pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/Resources/en.strings homework/../platform/en.strings
+s350949346.016342
+e350949346.303061
+r1
+xCopyStringsFile
+x/pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/Resources/en.strings
+xhomework/../platform/en.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy homework/../platform/en.strings045804e20febb441^42964de20febb441^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/pocode/Spatial_Media/homework/homework/../platform/en.strings0000000000000000^341"CopyStringsFile build/Debug/homework.app/Contents/Resources/en.strings homework/../platform/en.strings    cd /pocode/Spatial_Media/homework    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/Resources -- homework/../platform/en.strings36"308DC9DD-CB05-49E5-A46C-C339DCAF2FC3-
+
+CCpResource platform/main.pch build/Debug/homework.app/Contents/Resources/main.pch
+s350949346.016879
+e350949346.301791
+r1
+xCpResource
+xplatform/main.pch
+xbuild/Debug/homework.app/Contents/Resources/main.pch
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug/homework.app/Contents/Resources/main.pch2e7504e20febb441^13484de20febb441^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/Resources/main.pch00f8bc47dcffdf42^356"CpResource platform/main.pch build/Debug/homework.app/Contents/Resources/main.pch    cd /pocode/Spatial_Media/homework    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /pocode/Spatial_Media/homework/platform/main.pch /pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/Resources36"DBF3DE6B-411D-44BD-B44E-5D270C2BC98A-
+
+CLd /pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/MacOS/homework normal i386
+s350949345.143347
+e350949346.013488
+r1
+xLd
+x/pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/MacOS/homework
+xnormal
+xi386
+old: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Link /pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/MacOS/homework59c424e10febb441^7d5b10e20febb441^-283"ld: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@269"Direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-350949345#0#283#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--720"Ld build/Debug/homework.app/Contents/MacOS/homework normal i386    cd /pocode/Spatial_Media/homework    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang++ -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/pocode/Spatial_Media/homework/build/Debug -L/pocode/libraries/pocode -F/pocode/Spatial_Media/homework/build/Debug -filelist /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/Objects-normal/i386/homework.LinkFileList -mmacosx-version-min=10.6 -lpocode_d /usr/lib/libsqlite3.0.dylib -framework Cocoa -framework ApplicationServices -framework OpenGL -framework CoreVideo -framework QTKit -o /pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/MacOS/homework36"186C305D-5ECA-4A4E-9988-BD6F2EC01A6E-
+
+CProcessInfoPlistFile /pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/Info.plist platform/main.plist
+s350949273.165969
+e350949273.558280
+r1
+xProcessInfoPlistFile
+x/pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/Info.plist
+xplatform/main.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Process platform/main.plistb40051990febb441^35ed8e990febb441^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/pocode/Spatial_Media/homework/platform/main.plist0000000000000000^375"ProcessInfoPlistFile build/Debug/homework.app/Contents/Info.plist platform/main.plist    cd /pocode/Spatial_Media/homework    builtin-infoPlistUtility platform/main.plist -genpkginfo /pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /pocode/Spatial_Media/homework/build/Debug/homework.app/Contents/Info.plist36"4920F4A3-F70A-42C8-825D-DE5B58CD7923-
+
+CProcessPCH /Users/administrator/Library/Developer/Xcode/DerivedData/homework-drwskjhakbtrykcfcbukolanwmal/Index/PrecompiledHeaders/main-dnhkhwbphxotttcezgiqtrjgxbid_ast/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-boeqymukgyykflazyqfmpqwowgdb/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s350949273.562282
+e350949273.584719
+r1
+xProcessPCH
+x/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-boeqymukgyykflazyqfmpqwowgdb/main.pch.pth
+xplatform/main.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pch401890990febb441^f3af95990febb441^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/pocode/Spatial_Media/homework/platform/main.pch0000000000000000^2380"ProcessPCH /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-boeqymukgyykflazyqfmpqwowgdb/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /pocode/Spatial_Media/homework    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-generated-files.hmap -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-own-target-headers.hmap -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-all-target-headers.hmap -iquote /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-project-headers.hmap -iquote/pocode/libraries/pocode -I/pocode/Spatial_Media/homework/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/DerivedSources/i386 -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/DerivedSources -F/pocode/Spatial_Media/homework/build/Debug -c /pocode/Spatial_Media/homework/platform/main.pch -o /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-boeqymukgyykflazyqfmpqwowgdb/main.pch.pth -MMD -MT dependencies -MF /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-boeqymukgyykflazyqfmpqwowgdb/main.pch.d36"57E450B6-15FE-41E3-A47D-F54457150033-
+
+CProcessPCH++ /Users/administrator/Library/Developer/Xcode/DerivedData/homework-drwskjhakbtrykcfcbukolanwmal/Index/PrecompiledHeaders/main-axwewrqdheuwpbantglppbbdwukh_ast/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/administrator/Library/Developer/Xcode/DerivedData/homework-drwskjhakbtrykcfcbukolanwmal/Index/PrecompiledHeaders/main-chtzaprzsygajhfdcnpbliwebvfe_ast/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-fonhalmugvmxblcrhtbiixfegrug/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s350949273.561656
+e350949273.583966
+r1
+xProcessPCH++
+x/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-fonhalmugvmxblcrhtbiixfegrug/main.pch.pth
+xplatform/main.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pch7ae48f990febb441^d19095990febb441^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/pocode/Spatial_Media/homework/platform/main.pch0000000000000000^2446"ProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-fonhalmugvmxblcrhtbiixfegrug/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /pocode/Spatial_Media/homework    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-generated-files.hmap -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-own-target-headers.hmap -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-all-target-headers.hmap -iquote /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-project-headers.hmap -iquote/pocode/libraries/pocode -I/pocode/Spatial_Media/homework/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/DerivedSources/i386 -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/DerivedSources -F/pocode/Spatial_Media/homework/build/Debug -c /pocode/Spatial_Media/homework/platform/main.pch -o /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-fonhalmugvmxblcrhtbiixfegrug/main.pch.pth -MMD -MT dependencies -MF /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-fonhalmugvmxblcrhtbiixfegrug/main.pch.d36"BE1FE771-E65E-4DCA-893C-126FA5A9777F-
+
+CProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-hgqrewwynlliufcymrzkhcufelvl/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s350949273.562290
+e350949273.586924
+r1
+xProcessPCH++
+x/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-hgqrewwynlliufcymrzkhcufelvl/main.pch.pth
+xplatform/main.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pchd00a90990febb441^4a4296990febb441^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/pocode/Spatial_Media/homework/platform/main.pch0000000000000000^2250"ProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-hgqrewwynlliufcymrzkhcufelvl/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /pocode/Spatial_Media/homework    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-generated-files.hmap -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-own-target-headers.hmap -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-all-target-headers.hmap -iquote /pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/homework-project-headers.hmap -iquote/pocode/libraries/pocode -I/pocode/Spatial_Media/homework/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/DerivedSources/i386 -I/pocode/Spatial_Media/homework/build/homework.build/Debug/homework.build/DerivedSources -F/pocode/Spatial_Media/homework/build/Debug -c /pocode/Spatial_Media/homework/platform/main.pch -o /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-hgqrewwynlliufcymrzkhcufelvl/main.pch.pth -MMD -MT dependencies -MF /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-hgqrewwynlliufcymrzkhcufelvl/main.pch.d36"9567068C-6674-4F50-B585-D19490394C99-
+
+CTouch /pocode/Spatial_Media/homework/build/Debug/homework.app
+s350949346.897276
+e350949346.905594
+r1
+xTouch
+x/pocode/Spatial_Media/homework/build/Debug/homework.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Touch /pocode/Spatial_Media/homework/build/Debug/homework.appd1cee5e20febb441^a6d6e7e20febb441^---0#0#0#--147"Touch build/Debug/homework.app    cd /pocode/Spatial_Media/homework    /usr/bin/touch -c /pocode/Spatial_Media/homework/build/Debug/homework.app36"F334FCD9-223F-431C-B33C-1198A3F37AEA-
+

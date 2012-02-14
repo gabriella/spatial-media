@@ -1,0 +1,225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C39D509A14EB18A700008896 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = C39D509914EB18A700008896 /* AppDelegate.mm */; };
+		C39D509C14EB18A700008896 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = C39D509B14EB18A700008896 /* en.strings */; };
+		C39D509E14EB18A700008896 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D509D14EB18A700008896 /* main.m */; };
+		C39D50A014EB18A700008896 /* main.pch in Resources */ = {isa = PBXBuildFile; fileRef = C39D509F14EB18A700008896 /* main.pch */; };
+		C39D50A314EB18A700008896 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39D50A214EB18A700008896 /* main.xib */; };
+		C39D50A614EB18A700008896 /* poOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = C39D50A514EB18A700008896 /* poOpenGLView.mm */; };
+		C39D50AA14EB18A700008896 /* HWWeek3App.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C39D50A914EB18A700008896 /* HWWeek3App.cpp */; };
+		C39D50AC14EB18A700008896 /* AppConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C39D50AB14EB18A700008896 /* AppConfig.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C39D509114EB18A700008896 /* HWWeek3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWWeek3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39D509614EB18A700008896 /* Debug.xcconfig */ = {isa = PBXFileReference; name = Debug.xcconfig; path = ../platform/Debug.xcconfig; sourceTree = "<group>"; };
+		C39D509714EB18A700008896 /* Release.xcconfig */ = {isa = PBXFileReference; name = Release.xcconfig; path = ../platform/Release.xcconfig; sourceTree = "<group>"; };
+		C39D509814EB18A700008896 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = ../platform/AppDelegate.h; sourceTree = "<group>"; };
+		C39D509914EB18A700008896 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ../platform/AppDelegate.mm; sourceTree = "<group>"; };
+		C39D509B14EB18A700008896 /* en.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en.strings; path = ../platform/en.strings; sourceTree = "<group>"; };
+		C39D509D14EB18A700008896 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../platform/main.m; sourceTree = "<group>"; };
+		C39D509F14EB18A700008896 /* main.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = main.pch; path = ../platform/main.pch; sourceTree = "<group>"; };
+		C39D50A114EB18A700008896 /* main.plist */ = {isa = PBXFileReference; name = main.plist; path = ../platform/main.plist; sourceTree = "<group>"; };
+		C39D50A214EB18A700008896 /* main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = main.xib; path = ../platform/main.xib; sourceTree = "<group>"; };
+		C39D50A414EB18A700008896 /* poOpenGLView.h */ = {isa = PBXFileReference; name = poOpenGLView.h; path = ../platform/poOpenGLView.h; sourceTree = "<group>"; };
+		C39D50A514EB18A700008896 /* poOpenGLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = poOpenGLView.mm; path = ../platform/poOpenGLView.mm; sourceTree = "<group>"; };
+		C39D50A814EB18A700008896 /* HWWeek3App.h */ = {isa = PBXFileReference; path = HWWeek3App.h; sourceTree = "<group>"; };
+		C39D50A914EB18A700008896 /* HWWeek3App.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HWWeek3App.cpp; sourceTree = "<group>"; };
+		C39D50AB14EB18A700008896 /* AppConfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AppConfig.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C39D508E14EB18A700008896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C39D508614EB18A600008896 = {
+			isa = PBXGroup;
+			children = (
+				C39D509414EB18A700008896 /* HWWeek3 */,
+				C39D509214EB18A700008896 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C39D509214EB18A700008896 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C39D509114EB18A700008896 /* HWWeek3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C39D509414EB18A700008896 /* HWWeek3 */ = {
+			isa = PBXGroup;
+			children = (
+				C39D509514EB18A700008896 /* platform */,
+				C39D50A714EB18A700008896 /* application */,
+			);
+			path = HWWeek3;
+			sourceTree = "<group>";
+		};
+		C39D509514EB18A700008896 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				C39D509614EB18A700008896 /* Debug.xcconfig */,
+				C39D509714EB18A700008896 /* Release.xcconfig */,
+				C39D509814EB18A700008896 /* AppDelegate.h */,
+				C39D509914EB18A700008896 /* AppDelegate.mm */,
+				C39D509B14EB18A700008896 /* en.strings */,
+				C39D509D14EB18A700008896 /* main.m */,
+				C39D509F14EB18A700008896 /* main.pch */,
+				C39D50A114EB18A700008896 /* main.plist */,
+				C39D50A214EB18A700008896 /* main.xib */,
+				C39D50A414EB18A700008896 /* poOpenGLView.h */,
+				C39D50A514EB18A700008896 /* poOpenGLView.mm */,
+			);
+			name = platform;
+			sourceTree = "<group>";
+		};
+		C39D50A714EB18A700008896 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				C39D50A814EB18A700008896 /* HWWeek3App.h */,
+				C39D50A914EB18A700008896 /* HWWeek3App.cpp */,
+				C39D50AB14EB18A700008896 /* AppConfig.cpp */,
+			);
+			name = application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C39D509014EB18A700008896 /* HWWeek3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39D50AF14EB18A700008896 /* Build configuration list for PBXNativeTarget "HWWeek3" */;
+			buildPhases = (
+				C39D508D14EB18A700008896 /* Sources */,
+				C39D508E14EB18A700008896 /* Frameworks */,
+				C39D508F14EB18A700008896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HWWeek3;
+			productName = HWWeek3;
+			productReference = C39D509114EB18A700008896 /* HWWeek3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C39D508814EB18A600008896 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C39D508B14EB18A600008896 /* Build configuration list for PBXProject "HWWeek3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C39D508614EB18A600008896;
+			productRefGroup = C39D509214EB18A700008896 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C39D509014EB18A700008896 /* HWWeek3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C39D508F14EB18A700008896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39D509C14EB18A700008896 /* en.strings in Resources */,
+				C39D50A014EB18A700008896 /* main.pch in Resources */,
+				C39D50A314EB18A700008896 /* main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C39D508D14EB18A700008896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39D509A14EB18A700008896 /* AppDelegate.mm in Sources */,
+				C39D509E14EB18A700008896 /* main.m in Sources */,
+				C39D50A614EB18A700008896 /* poOpenGLView.mm in Sources */,
+				C39D50AA14EB18A700008896 /* HWWeek3App.cpp in Sources */,
+				C39D50AC14EB18A700008896 /* AppConfig.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C39D50AD14EB18A700008896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39D509614EB18A700008896 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C39D50AE14EB18A700008896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39D509714EB18A700008896 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C39D50B014EB18A700008896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C39D50B114EB18A700008896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C39D508B14EB18A600008896 /* Build configuration list for PBXProject "HWWeek3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39D50AD14EB18A700008896 /* Debug */,
+				C39D50AE14EB18A700008896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39D50AF14EB18A700008896 /* Build configuration list for PBXNativeTarget "HWWeek3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39D50B014EB18A700008896 /* Debug */,
+				C39D50B114EB18A700008896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C39D508814EB18A600008896 /* Project object */;
+}

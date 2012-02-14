@@ -1,0 +1,225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C39D50C914EB1C3C00008896 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = C39D50C814EB1C3C00008896 /* AppDelegate.mm */; };
+		C39D50CB14EB1C3C00008896 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = C39D50CA14EB1C3C00008896 /* en.strings */; };
+		C39D50CD14EB1C3C00008896 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D50CC14EB1C3C00008896 /* main.m */; };
+		C39D50CF14EB1C3C00008896 /* main.pch in Resources */ = {isa = PBXBuildFile; fileRef = C39D50CE14EB1C3C00008896 /* main.pch */; };
+		C39D50D214EB1C3C00008896 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = C39D50D114EB1C3C00008896 /* main.xib */; };
+		C39D50D514EB1C3C00008896 /* poOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = C39D50D414EB1C3C00008896 /* poOpenGLView.mm */; };
+		C39D50D914EB1C3C00008896 /* robbietestApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C39D50D814EB1C3C00008896 /* robbietestApp.cpp */; };
+		C39D50DB14EB1C3C00008896 /* AppConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C39D50DA14EB1C3C00008896 /* AppConfig.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C39D50C014EB1C3B00008896 /* robbietest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = robbietest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39D50C514EB1C3C00008896 /* Debug.xcconfig */ = {isa = PBXFileReference; name = Debug.xcconfig; path = ../platform/Debug.xcconfig; sourceTree = "<group>"; };
+		C39D50C614EB1C3C00008896 /* Release.xcconfig */ = {isa = PBXFileReference; name = Release.xcconfig; path = ../platform/Release.xcconfig; sourceTree = "<group>"; };
+		C39D50C714EB1C3C00008896 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = ../platform/AppDelegate.h; sourceTree = "<group>"; };
+		C39D50C814EB1C3C00008896 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ../platform/AppDelegate.mm; sourceTree = "<group>"; };
+		C39D50CA14EB1C3C00008896 /* en.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en.strings; path = ../platform/en.strings; sourceTree = "<group>"; };
+		C39D50CC14EB1C3C00008896 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../platform/main.m; sourceTree = "<group>"; };
+		C39D50CE14EB1C3C00008896 /* main.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = main.pch; path = ../platform/main.pch; sourceTree = "<group>"; };
+		C39D50D014EB1C3C00008896 /* main.plist */ = {isa = PBXFileReference; name = main.plist; path = ../platform/main.plist; sourceTree = "<group>"; };
+		C39D50D114EB1C3C00008896 /* main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = main.xib; path = ../platform/main.xib; sourceTree = "<group>"; };
+		C39D50D314EB1C3C00008896 /* poOpenGLView.h */ = {isa = PBXFileReference; name = poOpenGLView.h; path = ../platform/poOpenGLView.h; sourceTree = "<group>"; };
+		C39D50D414EB1C3C00008896 /* poOpenGLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = poOpenGLView.mm; path = ../platform/poOpenGLView.mm; sourceTree = "<group>"; };
+		C39D50D714EB1C3C00008896 /* robbietestApp.h */ = {isa = PBXFileReference; path = robbietestApp.h; sourceTree = "<group>"; };
+		C39D50D814EB1C3C00008896 /* robbietestApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = robbietestApp.cpp; sourceTree = "<group>"; };
+		C39D50DA14EB1C3C00008896 /* AppConfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AppConfig.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C39D50BD14EB1C3B00008896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C39D50B514EB1C3B00008896 = {
+			isa = PBXGroup;
+			children = (
+				C39D50C314EB1C3B00008896 /* robbietest */,
+				C39D50C114EB1C3B00008896 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C39D50C114EB1C3B00008896 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C39D50C014EB1C3B00008896 /* robbietest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C39D50C314EB1C3B00008896 /* robbietest */ = {
+			isa = PBXGroup;
+			children = (
+				C39D50C414EB1C3C00008896 /* platform */,
+				C39D50D614EB1C3C00008896 /* application */,
+			);
+			path = robbietest;
+			sourceTree = "<group>";
+		};
+		C39D50C414EB1C3C00008896 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				C39D50C514EB1C3C00008896 /* Debug.xcconfig */,
+				C39D50C614EB1C3C00008896 /* Release.xcconfig */,
+				C39D50C714EB1C3C00008896 /* AppDelegate.h */,
+				C39D50C814EB1C3C00008896 /* AppDelegate.mm */,
+				C39D50CA14EB1C3C00008896 /* en.strings */,
+				C39D50CC14EB1C3C00008896 /* main.m */,
+				C39D50CE14EB1C3C00008896 /* main.pch */,
+				C39D50D014EB1C3C00008896 /* main.plist */,
+				C39D50D114EB1C3C00008896 /* main.xib */,
+				C39D50D314EB1C3C00008896 /* poOpenGLView.h */,
+				C39D50D414EB1C3C00008896 /* poOpenGLView.mm */,
+			);
+			name = platform;
+			sourceTree = "<group>";
+		};
+		C39D50D614EB1C3C00008896 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				C39D50D714EB1C3C00008896 /* robbietestApp.h */,
+				C39D50D814EB1C3C00008896 /* robbietestApp.cpp */,
+				C39D50DA14EB1C3C00008896 /* AppConfig.cpp */,
+			);
+			name = application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C39D50BF14EB1C3B00008896 /* robbietest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C39D50DE14EB1C3C00008896 /* Build configuration list for PBXNativeTarget "robbietest" */;
+			buildPhases = (
+				C39D50BC14EB1C3B00008896 /* Sources */,
+				C39D50BD14EB1C3B00008896 /* Frameworks */,
+				C39D50BE14EB1C3B00008896 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = robbietest;
+			productName = robbietest;
+			productReference = C39D50C014EB1C3B00008896 /* robbietest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C39D50B714EB1C3B00008896 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C39D50BA14EB1C3B00008896 /* Build configuration list for PBXProject "robbietest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C39D50B514EB1C3B00008896;
+			productRefGroup = C39D50C114EB1C3B00008896 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C39D50BF14EB1C3B00008896 /* robbietest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C39D50BE14EB1C3B00008896 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39D50CB14EB1C3C00008896 /* en.strings in Resources */,
+				C39D50CF14EB1C3C00008896 /* main.pch in Resources */,
+				C39D50D214EB1C3C00008896 /* main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C39D50BC14EB1C3B00008896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39D50C914EB1C3C00008896 /* AppDelegate.mm in Sources */,
+				C39D50CD14EB1C3C00008896 /* main.m in Sources */,
+				C39D50D514EB1C3C00008896 /* poOpenGLView.mm in Sources */,
+				C39D50D914EB1C3C00008896 /* robbietestApp.cpp in Sources */,
+				C39D50DB14EB1C3C00008896 /* AppConfig.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C39D50DC14EB1C3C00008896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39D50C514EB1C3C00008896 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C39D50DD14EB1C3C00008896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39D50C614EB1C3C00008896 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C39D50DF14EB1C3C00008896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C39D50E014EB1C3C00008896 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C39D50BA14EB1C3B00008896 /* Build configuration list for PBXProject "robbietest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39D50DC14EB1C3C00008896 /* Debug */,
+				C39D50DD14EB1C3C00008896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39D50DE14EB1C3C00008896 /* Build configuration list for PBXNativeTarget "robbietest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C39D50DF14EB1C3C00008896 /* Debug */,
+				C39D50E014EB1C3C00008896 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C39D50B714EB1C3B00008896 /* Project object */;
+}

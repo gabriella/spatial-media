@@ -1,6 +1,6 @@
 dependencies: \
-  /pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/spatialMedia02/smImage.cpp \
-  /pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/spatialMedia02/smImage.h \
+  /Users/administrator/Documents/pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/spatialMedia02/smImage.cpp \
+  /Users/administrator/Documents/pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/spatialMedia02/smImage.h \
   /pocode/libraries/pocode/include/poTexture.h \
   /pocode/libraries/pocode/include/poPoint.h \
   /pocode/libraries/pocode/include/poColor.h \

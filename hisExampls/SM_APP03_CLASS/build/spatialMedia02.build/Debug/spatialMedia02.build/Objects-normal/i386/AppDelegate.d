@@ -1,6 +1,6 @@
 dependencies: \
-  /pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/spatialMedia02/../platform/AppDelegate.mm \
-  /pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/platform/AppDelegate.h \
+  /Users/administrator/Documents/pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/spatialMedia02/../platform/AppDelegate.mm \
+  /Users/administrator/Documents/pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/platform/AppDelegate.h \
   /pocode/libraries/pocode/include/poApplication.h \
   /pocode/libraries/pocode/include/poWindow.h \
   /pocode/libraries/pocode/include/common.h \
@@ -229,4 +229,4 @@ dependencies: \
   /pocode/libraries/Boost/boost_1_45_0/boost/preprocessor/detail/is_nullary.hpp \
   /pocode/libraries/Boost/boost_1_45_0/boost/preprocessor/detail/check.hpp \
   /pocode/libraries/Boost/boost_1_45_0/boost/signals2/shared_connection_block.hpp \
-  /pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/platform/poOpenGLView.h
+  /Users/administrator/Documents/pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/platform/poOpenGLView.h

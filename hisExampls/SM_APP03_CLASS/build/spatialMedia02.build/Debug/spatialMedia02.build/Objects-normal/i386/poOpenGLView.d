@@ -1,7 +1,7 @@
 dependencies: \
-  /pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/spatialMedia02/../platform/poOpenGLView.mm \
-  /pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/platform/poOpenGLView.h \
-  /pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/platform/AppDelegate.h \
+  /Users/administrator/Documents/pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/spatialMedia02/../platform/poOpenGLView.mm \
+  /Users/administrator/Documents/pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/platform/poOpenGLView.h \
+  /Users/administrator/Documents/pocode/Spatial_Media/hisExampls/SM_APP03_CLASS/platform/AppDelegate.h \
   /pocode/libraries/pocode/include/poApplication.h \
   /pocode/libraries/pocode/include/poWindow.h \
   /pocode/libraries/pocode/include/common.h \
