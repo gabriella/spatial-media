@@ -19,7 +19,7 @@ public:
     void    fastDraw( float x, float y );
     //void calcThresh1(smImage i1, smImage i2 );
     
-    //bool somethingThere(int x0,int y0, int x1, int y1);
+    bool somethingThere(int x0,int y0, int x1, int y1);
     
     // get and set pixel methods
     int     getPixel( int x, int y );
@@ -29,8 +29,12 @@ public:
     int             width, height;
     unsigned char*  imageData;
 
+    
     // this poTexture is used for the fastDraw method
     poTexture*      imageAsTexture;
+    
+    //
+    int totalBlackPix;//total number of pixels that are black
 };
 
 

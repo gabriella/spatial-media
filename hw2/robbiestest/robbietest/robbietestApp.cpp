@@ -64,6 +64,8 @@ void robbietestApp::update() {
                    grayVal=255;
                 }
                 myImage9-> setPixel(x,y,grayVal);
+//                somethingThere(getWindowWidth()/4, getWindowHeight()/4, getWindowWidth()-getWindowWidth()/4, getWindowHeight()-getWindowHeight()/4);              
+                //cout<<myImage9->somethingThere(200,200,400,400);
             }
         }
         break;
@@ -145,6 +147,9 @@ void robbietestApp::draw() {
     //    
      myImage9->fastDraw(600,450);
             threshold=22;
+           
+           myImage9->somethingThere(700,500,200,100);
+           
        //myImage9->calcThresh1(myImage1,myImage2);
     //        
     //        
@@ -157,6 +162,8 @@ void robbietestApp::draw() {
         myImage10->fastDraw(600,450);
     //    //    myImage->calcThresh2();
              threshold=50;
+             myImage10->somethingThere(750,500,200,100);
+
         }
          if(lastKeyDown=='3'){
     //        
@@ -166,6 +173,8 @@ void robbietestApp::draw() {
     //        
             myImage11->fastDraw(600,450);
     //       // myImage->calcThresh3();
+             myImage11->somethingThere(700,500,200,100);
+
              threshold=23;
         }
          if(lastKeyDown=='4'){
@@ -176,6 +185,8 @@ void robbietestApp::draw() {
        myImage12->fastDraw(600,450);
        //  myImage->calcThresh4();
              threshold=50;
+             myImage12->somethingThere(700,500,200,100);
+
 }
     //    //myImage9->calcThresh1();
 }

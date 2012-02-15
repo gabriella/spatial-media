@@ -6,6 +6,7 @@
 #include "smImage.h"
 #include "poSimpleDrawing.h"
 #include "poApplication.h"
+using namespace std;
 
 
 smImage::smImage( const char* fileName, int W, int H )
@@ -90,16 +91,35 @@ void    smImage::fastDraw( float x, float y )
     po::drawTexturedRect( imageAsTexture, poRect(x+0,y+height,width,-height) );
 }
 //
-//bool smImage::somethingThere(int x0, int y0, int x1,int  y1){
+bool smImage::somethingThere(int x0, int y0, int x1,int  y1){
 ////    
-////    po::setColor(poColor(1,0,1,0.5));
-////    po::drawFilledRect(x0, y0, x1,y1);
+    totalBlackPix = 0;
+    
+  // po::setColor(1,0,1,0.5));
+   po::drawStrokedRect(x0, y0, x0+x1,y0+y1);
 ////   
 //    
-//    
-//}
+    for(int x=x0;x<x1;x++){
+        for(int y=y0;y<y1;y++){
+            float myVal = getPixel(x,y);
+            
+            if(myVal==0){
+                totalBlackPix++;
+                
+                if(totalBlackPix>(x1-x0)*(y1-y0)/2){
+                    cout<<"i'm here";   
+                    return true;
+                }
+            }
+        
+        }
+   }
+}
+
 
 //how to do alpha channel
+//why not drawing where i ask it to - 
+//am i even doing this correctly
 
 
 
