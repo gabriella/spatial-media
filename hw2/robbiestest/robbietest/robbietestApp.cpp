@@ -148,7 +148,7 @@ void robbietestApp::draw() {
      myImage9->fastDraw(600,450);
             threshold=22;
            
-           myImage9->somethingThere(700,500,200,100);
+           myImage9->somethingThere(700,450,800,500);
            
        //myImage9->calcThresh1(myImage1,myImage2);
     //        
@@ -162,7 +162,7 @@ void robbietestApp::draw() {
         myImage10->fastDraw(600,450);
     //    //    myImage->calcThresh2();
              threshold=50;
-             myImage10->somethingThere(750,500,200,100);
+             myImage10->somethingThere(750,500,800,550);
 
         }
          if(lastKeyDown=='3'){
@@ -173,7 +173,7 @@ void robbietestApp::draw() {
     //        
             myImage11->fastDraw(600,450);
     //       // myImage->calcThresh3();
-             myImage11->somethingThere(700,500,200,100);
+             myImage11->somethingThere(700,500, 800,600);
 
              threshold=23;
         }
@@ -185,7 +185,7 @@ void robbietestApp::draw() {
        myImage12->fastDraw(600,450);
        //  myImage->calcThresh4();
              threshold=50;
-             myImage12->somethingThere(700,500,200,100);
+             myImage12->somethingThere(700,500, 800,600);
 
 }
     //    //myImage9->calcThresh1();

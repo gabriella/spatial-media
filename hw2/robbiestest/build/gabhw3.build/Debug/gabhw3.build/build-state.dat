@@ -6,16 +6,16 @@ cProcessInfoPlistFile /Users/administrator/Documents/pocode/Spatial_Media/hw2/ro
 cProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ezijpmqlpaxggdbbhobtworetwxd/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-aqbjvvlzqfhdytfoltuzqlkbevzy/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-evyzcrmhmrsukdczeumnmyggvbzb/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/poOpenGLView.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/poOpenGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/robbietestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/smImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/MacOS/gabhw3 normal i386
+cCpResource platform/main.pch build/Debug/gabhw3.app/Contents/Resources/main.pch
 cCopyStringsFile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/Resources/en.strings robbietest/../platform/en.strings
 cCompileXIB /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/main.xib
-cCpResource platform/main.pch build/Debug/gabhw3.app/Contents/Resources/main.pch
 cTouch /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app
 
 N/Developer/SDKs/MacOSX10.6.sdk
@@ -24,61 +24,61 @@ t1327702312
 s238
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app
-t1329320730
+t1329334218
 s102
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/Info.plist
-t1329260096
+t1329324037
 s1268
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/MacOS/gabhw3
-t1329320730
-s7494756
+t1329334218
+s7494744
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/PkgInfo
-t1329260096
+t1329324037
 s8
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/Resources/en.strings
-t1329260152
+t1329324087
 s92
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/Resources/main.nib
-t1329260153
+t1329324099
 s5243
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/Resources/main.pch
-t1329260152
+t1329324087
 s0
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.o
-t1329320726
+t1329334000
 s413572
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.o
-t1329260861
+t1329324064
 s467396
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/gabhw3.LinkFileList
-c000000004F3AE92D000000000000033E
-t1329260845
+c000000004F3BE005000000000000033E
+t1329324037
 s830
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.o
-t1329260847
+t1329324040
 s2272
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/poOpenGLView.o
-t1329260861
+t1329324063
 s414448
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o
-t1329320726
-s434336
+t1329333999
+s434352
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.o
-t2
-s0
+t1329334216
+s63788
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/platform/AppDelegate.h
 c000000004F3AE4BC0000000000000212
@@ -126,9 +126,9 @@ t1329259708
 s397
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/robbietestApp.cpp
-c000000004F3BD0140000000000001ADE
-t1329319956
-s6878
+c000000004F3C06D00000000000001AE0
+t1329333968
+s6880
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/robbietestApp.h
 c000000004F3AE5BD0000000000000319
@@ -136,150 +136,14 @@ t1329259965
 s793
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/smImage.cpp
-c000000004F3BD34B0000000000000DC5
-t1329320779
-s3525
+c000000004F3C07C00000000000000E70
+t1329334208
+s3696
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/smImage.h
-c000000004F3BD1590000000000000362
-t1329320281
+c000000004F3C06D00000000000000362
+t1329333968
 s866
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app
-t1329260593
-s102
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/Info.plist
-t1329260096
-s1268
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/MacOS/gabhw3
-t1329260592
-s7494608
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/PkgInfo
-t1329260096
-s8
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/Resources/en.strings
-t1329260152
-s92
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/Resources/main.nib
-t1329260153
-s5243
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/Resources/main.pch
-t1329260152
-s0
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.o
-t1329260110
-s413572
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.o
-t1329260110
-s467396
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/gabhw3.LinkFileList
-c000000004F3AE6400000000000000338
-t1329260096
-s824
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.o
-t1329260097
-s2268
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/poOpenGLView.o
-t1329260110
-s414432
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/ribbietestApp.o
-t2
-s0
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o
-t1329260592
-s431092
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.o
-t1329260152
-s62052
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/platform/AppDelegate.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/platform/main.pch
-c000000004F3AE4BC0000000000000000
-t1329259708
-s0
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/platform/poOpenGLView.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/AppDelegate.mm
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/en.strings
-c000000004F3AE4BC000000000000002D
-t1329259708
-s45
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/main.m
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/main.xib
-c000000004F3AE4BC0000000000006176
-t1329259708
-s24950
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/poOpenGLView.mm
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/AppConfig.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/ribbietestApp.cpp
-c000000004F3AE5FA0000000000001ACB
-t1329260026
-s6859
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/robbietestApp.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/robbietestApp.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/smImage.cpp
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/smImage.h
-c00000000000000000000000000000000
-t2
-s0
-
-N/pocode/libraries/Boost/boost_1_45
-c00000000000000000000000000000000
-t2
-s0
 
 N/pocode/libraries/Boost/boost_1_45_0/boost/aligned_storage.hpp
 c000000004F3ADBFA00000000000010C9
@@ -4017,27 +3881,15 @@ t1329257479
 s40976
 
 N/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-aqbjvvlzqfhdytfoltuzqlkbevzy/main.pch.pth
-t1329260846
+t1329324037
 s74580
 
-N/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-asuxypiczsjyqtenfyoqpyayfqyg/main.pch.pth
-t1329259795
-s74612
-
-N/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-bhmqacgpztlixdachrmkqzceplcp/main.pch.pth
-t1329259795
-s76112
-
-N/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-btvnmlqdhuabqqhgkvgylnqrpvfv/main.pch.pth
-t1329259795
-s77920
-
 N/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-evyzcrmhmrsukdczeumnmyggvbzb/main.pch.pth
-t1329260846
+t1329324037
 s76080
 
 N/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ezijpmqlpaxggdbbhobtworetwxd/main.pch.pth
-t1329260846
+t1329324037
 s77888
 
 Nplatform/main.plist
@@ -4063,34 +3915,13 @@ r0
 CBuild AST from /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/smImage.cpp
 r0
 
-CBuild AST from /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/AppDelegate.mm
-r0
-
-CBuild AST from /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/main.m
-r0
-
-CBuild AST from /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/poOpenGLView.mm
-r0
-
-CBuild AST from /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/AppConfig.cpp
-r0
-
-CBuild AST from /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/ribbietestApp.cpp
-r0
-
-CBuild AST from /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/robbietestApp.cpp
-r0
-
-CBuild AST from /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/smImage.cpp
-r0
-
 CCheck dependencies
 r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc39a52cb0aecb441^bd0162cb0aecb441^---0#1#0#--18"Check dependencies36"C0A4DC18-44F5-4D26-A3BB-0128B6BFCA75-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa0a67a5e3fecb441^8177825e3fecb441^---0#1#0#--18"Check dependencies36"476E3073-CDA7-45A9-9F0E-E9194FCCF451-
 
 CCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s351013519.974756
-e351013526.242803
+s351026768.678338
+e351026800.674125
 r1
 xCompileC
 xbuild/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.o
@@ -4099,24 +3930,11 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/AppConfig.cpp9ca4f98f0aecb441^15e03f960aecb441^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/AppConfig.cpp0000000000000000^2654"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.o robbietest/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-evyzcrmhmrsukdczeumnmyggvbzb/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/AppConfig.cpp -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.o36"2252CBFA-EEF5-450A-8BE9-D9A32A1B784B-
-
-CCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s350952897.846449
-e350952910.800562
-r1
-xCompileC
-xbuild/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.o
-x/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/AppConfig.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/AppConfig.cpp26dfd8c11debb441^edf3ccce1debb441^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/AppConfig.cpp0000000000000000^2642"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.o robbietest/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-bhmqacgpztlixdachrmkqzceplcp/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/AppConfig.cpp -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.o36"79FF3FBC-8A80-4232-999C-4565B1144004-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/AppConfig.cpp09fcad503eecb441^6094ac703eecb441^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/AppConfig.cpp0000000000000000^2654"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.o robbietest/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-evyzcrmhmrsukdczeumnmyggvbzb/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/AppConfig.cpp -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.o36"A88F90B9-F7DA-4BFF-9FC9-FF1836DD9874-
 
 CCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s350953646.046165
-e350953661.315673
+s351016837.265724
+e351016866.161518
 r1
 xCompileC
 xbuild/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.o
@@ -4125,24 +3943,11 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/AppDelegate.mmf8f90bae20ebb441^abeb50bd20ebb441^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/AppDelegate.mm0000000000000000^2882"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.o robbietest/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ezijpmqlpaxggdbbhobtworetwxd/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/AppDelegate.mm -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.o36"27A5474A-0CCB-47FD-962E-C16778886C75-
-
-CCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s350952896.449043
-e350952911.000610
-r1
-xCompileC
-xbuild/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.o
-x/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/AppDelegate.mm
-xnormal
-xi386
-xobjective-c++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/AppDelegate.mm712173c01debb441^bb2a00cf1debb441^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/AppDelegate.mm0000000000000000^2870"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.o robbietest/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-btvnmlqdhuabqqhgkvgylnqrpvfv/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/AppDelegate.mm -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.o36"D5E973B2-B350-4A16-85AC-2BD55FE4A012-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/AppDelegate.mm0d37448517ecb441^295e29a217ecb441^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/AppDelegate.mm0000000000000000^2882"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.o robbietest/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ezijpmqlpaxggdbbhobtworetwxd/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/AppDelegate.mm -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.o36"36F9215C-8263-4003-9997-4CFDE655380D-
 
 CCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350953646.044794
-e350953647.493905
+s351016837.266886
+e351016840.211638
 r1
 xCompileC
 xbuild/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.o
@@ -4151,24 +3956,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/main.mf9a00bae20ebb441^00727eaf20ebb441^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/main.m0000000000000000^2781"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.o robbietest/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-aqbjvvlzqfhdytfoltuzqlkbevzy/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/main.m -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.o36"99A8DF06-2574-42FA-9049-DE44CE27D27F-
-
-CCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350952896.449071
-e350952897.845160
-r1
-xCompileC
-xbuild/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.o
-x/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/main.mc92073c01debb441^8369d8c11debb441^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/main.m0000000000000000^2769"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.o robbietest/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-asuxypiczsjyqtenfyoqpyayfqyg/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/main.m -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.o36"CD96BC13-3769-4FF4-8EFB-DD56F8009CDF-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/main.ma488448517ecb441^ab3f368817ecb441^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/main.m0000000000000000^2781"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.o robbietest/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-aqbjvvlzqfhdytfoltuzqlkbevzy/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/main.m -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.o36"9DAA5A85-BF87-482D-A3DD-F7DBE868B832-
 
 CCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/poOpenGLView.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/poOpenGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s350953647.495272
-e350953662.090084
+s351016837.267111
+e351016864.885422
 r1
 xCompileC
 xbuild/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/poOpenGLView.o
@@ -4177,27 +3969,11 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/poOpenGLView.mm38f47eaf20ebb441^721917be20ebb441^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/poOpenGLView.mm0000000000000000^2887"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/poOpenGLView.o robbietest/../platform/poOpenGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ezijpmqlpaxggdbbhobtworetwxd/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/poOpenGLView.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/poOpenGLView.mm -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/poOpenGLView.o36"82CE3AF1-5D56-4BCC-AFFA-8E94D49F9424-
-
-CCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/poOpenGLView.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/poOpenGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s350952896.449999
-e350952911.100481
-r1
-xCompileC
-xbuild/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/poOpenGLView.o
-x/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/poOpenGLView.mm
-xnormal
-xi386
-xobjective-c++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/poOpenGLView.mma35b73c01debb441^aebb19cf1debb441^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/poOpenGLView.mm0000000000000000^2875"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/poOpenGLView.o robbietest/../platform/poOpenGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-btvnmlqdhuabqqhgkvgylnqrpvfv/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/poOpenGLView.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/poOpenGLView.mm -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/poOpenGLView.o36"2ABD6CCB-3553-4D0F-9CF5-9D7DB2B01DBB-
-
-CCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/ribbietestApp.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/ribbietestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/poOpenGLView.mmf08a448517ecb441^64b0e2a017ecb441^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/poOpenGLView.mm0000000000000000^2887"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/poOpenGLView.o robbietest/../platform/poOpenGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ezijpmqlpaxggdbbhobtworetwxd/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/poOpenGLView.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/poOpenGLView.mm -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/poOpenGLView.o36"09D7D89A-4D23-4502-9614-39768FD27CD7-
 
 CCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/robbietestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s351013519.971080
-e351013526.515989
+s351026768.677762
+e351026799.255384
 r1
 xCompileC
 xbuild/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o
@@ -4206,24 +3982,11 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/robbietestApp.cpp88b9f88f0aecb441^ca1784960aecb441^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/robbietestApp.cpp0000000000000000^2674"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o robbietest/robbietestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-evyzcrmhmrsukdczeumnmyggvbzb/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/robbietestApp.cpp -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o36"6378E6B3-7061-4866-9B98-5DFFA3BADBCB-
-
-CCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/robbietestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s350953584.900869
-e350953588.631309
-r1
-xCompileC
-xbuild/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o
-x/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/robbietestApp.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/robbietestApp.cppf9bce67020ebb441^999da17420ebb441^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/robbietestApp.cpp0000000000000000^2662"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o robbietest/robbietestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-bhmqacgpztlixdachrmkqzceplcp/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/robbietestApp.cpp -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o36"272BE234-1312-42DB-BBED-EB560D8111AD-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/robbietestApp.cpp0bd1ad503eecb441^8061416f3eecb441^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/robbietestApp.cpp0000000000000000^2674"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o robbietest/robbietestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-evyzcrmhmrsukdczeumnmyggvbzb/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/robbietestApp.cpp -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o36"ED01A501-3BBD-4522-9111-00B13C75835F-
 
 CCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/smImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s351013579.389343
-e351013582.481374
+s351027008.532682
+e351027016.963845
 r1
 xCompileC
 xbuild/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.o
@@ -4232,96 +3995,60 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/smImage.cppf3c863cb0aecb441^2e3c7bce0aecb441^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/smImage.cpp0000000000000000^2644"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.o robbietest/smImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-evyzcrmhmrsukdczeumnmyggvbzb/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/smImage.cpp -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.o36"4105B37A-A08D-42B4-B706-A2FF083FE2D5-
-
-CCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/smImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s350952949.082980
-e350952952.410652
-r1
-xCompileC
-xbuild/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.o
-x/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/smImage.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/smImage.cpp956015f51debb441^682169f81debb441^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/smImage.cpp0000000000000000^2632"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.o robbietest/smImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-bhmqacgpztlixdachrmkqzceplcp/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/smImage.cpp -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.o36"C9F53F65-F2EF-40E8-8192-F8D698D6ACA4-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/smImage.cpp8b8a88403fecb441^8029f7483fecb441^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/smImage.cpp0000000000000000^2644"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.o robbietest/smImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-evyzcrmhmrsukdczeumnmyggvbzb/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/smImage.cpp -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.o36"47C54C95-A059-4E84-AA1A-65F374FFC8FB-
 
 CCompileXIB /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/main.xib
-r0
-
-CCompileXIB /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/main.xib
-s350952952.941080
-e350952953.038688
+s351016887.027905
+e351016899.137691
 r1
 xCompileXIB
-x/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/main.xib
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compiling /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/main.xib1d00f1f81debb441^b8e709f91debb441^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/main.xib0000000000000000^535"CompileXIB robbietest/../platform/main.xib    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/Resources/main.nib /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/main.xib --sdk /Developer/SDKs/MacOSX10.6.sdk36"EEB12B2A-931D-43F5-92FA-628DC580AD71-
+x/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/main.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compiling /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/main.xib3eca08b717ecb441^6e4c23c317ecb441^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/main.xib0000000000000000^538"CompileXIB robbietest/../platform/main.xib    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/Resources/main.nib /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/main.xib --sdk /Developer/SDKs/MacOSX10.6.sdk36"F1D2A223-2627-43B5-9223-7A538BB9BC15-
 
 CCopyStringsFile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/Resources/en.strings robbietest/../platform/en.strings
-r0
-
-CCopyStringsFile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/Resources/en.strings robbietest/../platform/en.strings
-s350952952.940611
-e350952952.973021
+s351016887.026898
+e351016887.581889
 r1
 xCopyStringsFile
-x/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/Resources/en.strings
+x/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/Resources/en.strings
 xrobbietest/../platform/en.strings
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy robbietest/../platform/en.strings00e4f0f81debb441^f81bf9f81debb441^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/robbietest/../platform/en.strings0000000000000000^413"CopyStringsFile build/Debug/gabhw3.app/Contents/Resources/en.strings robbietest/../platform/en.strings    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/Resources -- robbietest/../platform/en.strings36"5D60A4F9-0E27-4A59-96DE-8D90F65D3010-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy robbietest/../platform/en.strings44c009b717ecb441^34f794b717ecb441^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/en.strings0000000000000000^415"CopyStringsFile build/Debug/gabhw3.app/Contents/Resources/en.strings robbietest/../platform/en.strings    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/Resources -- robbietest/../platform/en.strings36"253AD3C8-6ABE-4BA2-A6C9-05CEC44D9174-
 
 CCpResource platform/main.pch build/Debug/gabhw3.app/Contents/Resources/main.pch
-s350952952.941086
-e350952952.945397
+s351016887.026892
+e351016887.344544
 r1
 xCpResource
 xplatform/main.pch
 xbuild/Debug/gabhw3.app/Contents/Resources/main.pch
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug/gabhw3.app/Contents/Resources/main.pchbdfef0f81debb441^3106f2f81debb441^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/Resources/main.pch00f8bc47dcffdf42^460"CpResource platform/main.pch build/Debug/gabhw3.app/Contents/Resources/main.pch    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/platform/main.pch /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/Resources36"40482693-A83B-4E90-9B6A-D43DB50E2F6C-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug/gabhw3.app/Contents/Resources/main.pch13d309b717ecb441^8f3458b717ecb441^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/Resources/main.pch00f8bc47dcffdf42^463"CpResource platform/main.pch build/Debug/gabhw3.app/Contents/Resources/main.pch    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/platform/main.pch /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/Resources36"9FED7727-0ADF-48F5-B919-1DD09BD6C3BE-
 
 CLd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/MacOS/gabhw3 normal i386
-s351013582.482867
-e351013582.987690
+s351027016.969501
+e351027018.814232
 r1
 xLd
 x/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/MacOS/gabhw3
 xnormal
 xi386
 old: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Link /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/MacOS/gabhw33ab17bce0aecb441^f5dafcce0aecb441^-283"ld: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@269"Direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-351013582#0#283#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--891"Ld build/Debug/gabhw3.app/Contents/MacOS/gabhw3 normal i386    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang++ -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -L/pocode/libraries/pocode -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -filelist /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/gabhw3.LinkFileList -mmacosx-version-min=10.6 -lpocode_d /usr/lib/libsqlite3.0.dylib -framework Cocoa -framework ApplicationServices -framework OpenGL -framework CoreVideo -framework QTKit -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/MacOS/gabhw336"CB34FB11-A596-4F91-BCC2-D4583B64222E-
-
-CLd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/MacOS/gabhw3 normal i386
-s350953588.633245
-e350953589.083628
-r1
-xLd
-x/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/MacOS/gabhw3
-xnormal
-xi386
-old: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Link /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/MacOS/gabhw31230a27420ebb441^ee76157520ebb441^-283"ld: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@269"Direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-350953588#0#283#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--886"Ld build/Debug/gabhw3.app/Contents/MacOS/gabhw3 normal i386    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang++ -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug -L/pocode/libraries/pocode -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug -filelist /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/gabhw3.LinkFileList -mmacosx-version-min=10.6 -lpocode_d /usr/lib/libsqlite3.0.dylib -framework Cocoa -framework ApplicationServices -framework OpenGL -framework CoreVideo -framework QTKit -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/MacOS/gabhw336"3938F6E4-929D-44CB-84F7-394FC04D8AA3-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Link /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/MacOS/gabhw36d72f8483fecb441^b8afd34a3fecb441^-283"ld: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@269"Direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-351027018#0#283#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--891"Ld build/Debug/gabhw3.app/Contents/MacOS/gabhw3 normal i386    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang++ -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -L/pocode/libraries/pocode -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -filelist /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/gabhw3.LinkFileList -mmacosx-version-min=10.6 -lpocode_d /usr/lib/libsqlite3.0.dylib -framework Cocoa -framework ApplicationServices -framework OpenGL -framework CoreVideo -framework QTKit -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/MacOS/gabhw336"AE0372DF-4C8A-4913-9E25-629741DD76B4-
 
 CProcessInfoPlistFile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/Info.plist platform/main.plist
-r0
-
-CProcessInfoPlistFile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/Info.plist platform/main.plist
-s350952896.432176
-e350952896.443395
+s351016837.166530
+e351016837.178520
 r1
 xProcessInfoPlistFile
-x/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/Info.plist
+x/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/Info.plist
 xplatform/main.plist
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Process platform/main.plist99bb6ec01debb441^c78371c01debb441^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/platform/main.plist0000000000000000^477"ProcessInfoPlistFile build/Debug/gabhw3.app/Contents/Info.plist platform/main.plist    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest    builtin-infoPlistUtility platform/main.plist -genpkginfo /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app/Contents/Info.plist36"4C579948-3C2C-4836-8C73-3DDE3820E1B6-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Process platform/main.plist66bf2a8517ecb441^13b82d8517ecb441^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/platform/main.plist0000000000000000^480"ProcessInfoPlistFile build/Debug/gabhw3.app/Contents/Info.plist platform/main.plist    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    builtin-infoPlistUtility platform/main.plist -genpkginfo /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/Info.plist36"973EC2C1-BADA-4E7C-BB51-529E58F14CE3-
 
 CProcessPCH /Users/administrator/Library/Developer/Xcode/DerivedData/gabhw3-ffkgoxuwkivpsqfoihwzfwzzyabr/Index/PrecompiledHeaders/main-dcdqkyuzrgbvfgcltpdqxiplbwip_ast/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
-CProcessPCH /Users/administrator/Library/Developer/Xcode/DerivedData/gabhw3-gqaroopfbxdmyoalkvvrpmqmupiu/Index/PrecompiledHeaders/main-cgflkpxhuxqjyncihbpjxyhexuyn_ast/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
 CProcessPCH /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-aqbjvvlzqfhdytfoltuzqlkbevzy/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s350953645.956561
-e350953646.043604
+s351016837.191413
+e351016837.261918
 r1
 xProcessPCH
 x/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-aqbjvvlzqfhdytfoltuzqlkbevzy/main.pch.pth
@@ -4330,10 +4057,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pch5b09f5ad20ebb441^76330bae20ebb441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/platform/main.pch0000000000000000^2718"ProcessPCH /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-aqbjvvlzqfhdytfoltuzqlkbevzy/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/platform/main.pch -o /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-aqbjvvlzqfhdytfoltuzqlkbevzy/main.pch.pth -MMD -MT dependencies -MF /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-aqbjvvlzqfhdytfoltuzqlkbevzy/main.pch.d36"6523268F-CF46-43FA-B3C7-36076D6533EE-
-
-CProcessPCH /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-asuxypiczsjyqtenfyoqpyayfqyg/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pch5531318517ecb441^b7b7438517ecb441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/platform/main.pch0000000000000000^2718"ProcessPCH /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-aqbjvvlzqfhdytfoltuzqlkbevzy/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/platform/main.pch -o /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-aqbjvvlzqfhdytfoltuzqlkbevzy/main.pch.pth -MMD -MT dependencies -MF /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-aqbjvvlzqfhdytfoltuzqlkbevzy/main.pch.d36"5C8DBE9D-61A3-427B-AAD6-03257C205EE0-
 
 CProcessPCH++ /Users/administrator/Library/Developer/Xcode/DerivedData/gabhw3-ffkgoxuwkivpsqfoihwzfwzzyabr/Index/PrecompiledHeaders/main-egtchupzhtgdlkephwogeehclxbq_ast/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
@@ -4341,21 +4065,9 @@ r0
 CProcessPCH++ /Users/administrator/Library/Developer/Xcode/DerivedData/gabhw3-ffkgoxuwkivpsqfoihwzfwzzyabr/Index/PrecompiledHeaders/main-exevuljjjojgjdgzusmcqcsgreix_ast/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
-CProcessPCH++ /Users/administrator/Library/Developer/Xcode/DerivedData/gabhw3-gqaroopfbxdmyoalkvvrpmqmupiu/Index/PrecompiledHeaders/main-cmdljbxgunnzeggclztbciteryyw_ast/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH++ /Users/administrator/Library/Developer/Xcode/DerivedData/gabhw3-gqaroopfbxdmyoalkvvrpmqmupiu/Index/PrecompiledHeaders/main-gyipaqlgkkoiibbajjdpmoaobtmb_ast/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-bhmqacgpztlixdachrmkqzceplcp/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-btvnmlqdhuabqqhgkvgylnqrpvfv/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
 CProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-evyzcrmhmrsukdczeumnmyggvbzb/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s350953645.956690
-e350953646.041779
+s351016837.193863
+e351016837.276032
 r1
 xProcessPCH++
 x/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-evyzcrmhmrsukdczeumnmyggvbzb/main.pch.pth
@@ -4364,11 +4076,11 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pchdd0af5ad20ebb441^5fb50aae20ebb441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/platform/main.pch0000000000000000^2588"ProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-evyzcrmhmrsukdczeumnmyggvbzb/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/platform/main.pch -o /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-evyzcrmhmrsukdczeumnmyggvbzb/main.pch.pth -MMD -MT dependencies -MF /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-evyzcrmhmrsukdczeumnmyggvbzb/main.pch.d36"40F070F8-619A-4EE4-BC1B-603F959DAB99-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pchf0bf318517ecb441^1dcc468517ecb441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/platform/main.pch0000000000000000^2588"ProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-evyzcrmhmrsukdczeumnmyggvbzb/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/platform/main.pch -o /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-evyzcrmhmrsukdczeumnmyggvbzb/main.pch.pth -MMD -MT dependencies -MF /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-evyzcrmhmrsukdczeumnmyggvbzb/main.pch.d36"CBE3E96F-AFFF-4EDF-BC41-5468E7991FBD-
 
 CProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ezijpmqlpaxggdbbhobtworetwxd/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s350953645.956567
-e350953646.044958
+s351016837.191153
+e351016837.264250
 r1
 xProcessPCH++
 x/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ezijpmqlpaxggdbbhobtworetwxd/main.pch.pth
@@ -4377,21 +4089,13 @@ xnormal
 xi386
 xobjective-c++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pch3909f5ad20ebb441^da900bae20ebb441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/platform/main.pch0000000000000000^2784"ProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ezijpmqlpaxggdbbhobtworetwxd/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/platform/main.pch -o /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ezijpmqlpaxggdbbhobtworetwxd/main.pch.pth -MMD -MT dependencies -MF /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ezijpmqlpaxggdbbhobtworetwxd/main.pch.d36"43242084-A19D-49D0-BCF8-0E345D0D780B-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pcha792318517ecb441^fcc2438517ecb441^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/platform/main.pch0000000000000000^2784"ProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ezijpmqlpaxggdbbhobtworetwxd/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/platform/main.pch -o /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ezijpmqlpaxggdbbhobtworetwxd/main.pch.pth -MMD -MT dependencies -MF /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ezijpmqlpaxggdbbhobtworetwxd/main.pch.d36"0F29D152-153C-42FB-BF33-0FE28E84CBDE-
 
 CTouch /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app
-s351013582.993288
-e351013583.000768
+s351027018.821752
+e351027018.839559
 r1
 xTouch
 x/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Touch /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.appd464fece0aecb441^b53300cf0aecb441^---0#0#0#--217"Touch build/Debug/gabhw3.app    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    /usr/bin/touch -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app36"D5DCC3DC-6C9F-4449-8FAE-3018A4CCE57D-
-
-CTouch /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app
-s350953589.089264
-e350953589.096487
-r1
-xTouch
-x/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Touch /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.appb4e7167520ebb441^8db4187520ebb441^---0#0#0#--215"Touch build/Debug/gabhw3.app    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest    /usr/bin/touch -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbietest/build/Debug/gabhw3.app36"354CA96E-DB90-4899-AFD6-E7D008C1A2E6-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Touch /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app5186d24a3fecb441^d715d74a3fecb441^---0#0#0#--217"Touch build/Debug/gabhw3.app    cd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest    /usr/bin/touch -c /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app36"7C1F1BE7-FCEB-4682-8F11-DCDC5282FD54-
 

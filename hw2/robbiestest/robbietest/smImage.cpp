@@ -49,7 +49,7 @@ int     smImage::getPixel( int x, int y )
     int index = x + y*width;                    // calculate the pixel index
     if ( index < 0 || index >= width*height )
     {
-        printf("ERROR: getPixel out of bounds\n");
+        printf("ERROR: getPixel out of bounds: i:%i x:%i y:%i w:%i h:%i W*H:%i \n",index,x,y,width,height,width*height);
         return 0;
     }
     return imageData[index];                    // return the pixel
@@ -91,32 +91,35 @@ void    smImage::fastDraw( float x, float y )
     po::drawTexturedRect( imageAsTexture, poRect(x+0,y+height,width,-height) );
 }
 //
-bool smImage::somethingThere(int x0, int y0, int x1,int  y1){
+bool smImage::somethingThere(int x0, int y0, int x1, int y1){
 ////    
     totalBlackPix = 0;
     
-  // po::setColor(1,0,1,0.5));
-   po::drawStrokedRect(x0, y0, x0+x1,y0+y1);
-////   
-//    
-    for(int x=x0;x<x1;x++){
-        for(int y=y0;y<y1;y++){
+//    x1=width;
+//    y1=height;
+    
+   po::setColor(1,0,0,1);
+   po::drawStrokedRect(x0, y0, x1,y1);
+        po::setColor(1,1,1,1);
+    for(int x=0;x<width;x++){
+        for(int y=0;y<height;y++){
             float myVal = getPixel(x,y);
-            
-            if(myVal==0){
+            if(myVal == 0){
                 totalBlackPix++;
                 
-                if(totalBlackPix>(x1-x0)*(y1-y0)/2){
-                    cout<<"i'm here";   
-                    return true;
-                }
             }
-        
         }
    }
+    cout << "tbp " << totalBlackPix << endl;
+    if(totalBlackPix>(width*height)/2){
+        cout<<"i'm here";   
+        return true;
+    }
+    //cout << totalBlackPix << endl;
+    else {
+        return false;
+    }
 }
-
-
 //how to do alpha channel
 //why not drawing where i ask it to - 
 //am i even doing this correctly
