@@ -7,15 +7,15 @@ cProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xco
 cProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-evyzcrmhmrsukdczeumnmyggvbzb/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-aqbjvvlzqfhdytfoltuzqlkbevzy/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/poOpenGLView.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/poOpenGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/robbietestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/smImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/MacOS/gabhw3 normal i386
-cCopyStringsFile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/Resources/en.strings robbietest/../platform/en.strings
-cCpResource platform/main.pch build/Debug/gabhw3.app/Contents/Resources/main.pch
 cCompileXIB /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/../platform/main.xib
+cCpResource platform/main.pch build/Debug/gabhw3.app/Contents/Resources/main.pch
+cCopyStringsFile /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/Resources/en.strings robbietest/../platform/en.strings
 cTouch /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app
 
 N/Developer/SDKs/MacOSX10.6.sdk
@@ -24,7 +24,7 @@ t1327702312
 s238
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app
-t1329403052
+t1329403167
 s102
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/Info.plist
@@ -32,7 +32,7 @@ t1329324037
 s1268
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/MacOS/gabhw3
-t1329403052
+t1329403167
 s7494744
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/Debug/gabhw3.app/Contents/PkgInfo
@@ -77,8 +77,8 @@ t1329402981
 s434268
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.o
-t1329403051
-s63860
+t1329403166
+s64160
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/platform/AppDelegate.h
 c000000004F3AE4BC0000000000000212
@@ -3917,7 +3917,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7c5f849b4cedb441^d47ea39b4cedb441^---0#1#0#--18"Check dependencies36"564F3281-A8D7-4534-BA04-E45C8D12C18B-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesdf537d765cedb441^910d94765cedb441^---0#1#0#--18"Check dependencies36"C9C4E10C-D712-4F78-A77E-EA7BFD975889-
 
 CCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.o /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s351026768.678338
