@@ -94,15 +94,29 @@ void    smImage::fastDraw( float x, float y )
 bool smImage::somethingThere(int x0, int y0, int x1, int y1){
 ////    
     totalBlackPix = 0;
+   // cout<<"x:"<<x0<<" y0:"<<y0<<" x1"<<x1<<" y1:"<<y1<<endl;
     
 //    x1=width;
 //    y1=height;
     
    po::setColor(1,0,0,1);
-   po::drawStrokedRect(x0, y0, x1,y1);
-        po::setColor(1,1,1,1);
-    for(int x=0;x<width;x++){
-        for(int y=0;y<height;y++){
+  // po::drawStrokedRect(x0, y0, x1-x0,y1-y0);
+    // po::drawStrokedRect(x0,y0,x1-x0, y1-y0);
+    po::drawStrokedRect(600+x0,450+y0,x1-x0,y1-y0);//
+                        po::setColor(1,1,1,1);
+  // for(int x=x0;x<width;x++){
+   //    for(int y=y0;y<height;y++){
+           
+           
+           
+          // cout<<x<<" "<<y<<endl;
+
+            for(int x=x0;x<x1;x++){
+                for(int y=y0;y<y1;y++){
+              //      po::setColor(0,0,1,1);
+
+                //    po::drawStrokedRect(x0,y0,100,100);
+                    
             float myVal = getPixel(x,y);
             if(myVal == 0){
                 totalBlackPix++;
@@ -110,14 +124,22 @@ bool smImage::somethingThere(int x0, int y0, int x1, int y1){
             }
         }
    }
+    po::setColor(1,1,1,1);
     cout << "tbp " << totalBlackPix << endl;
-    if(totalBlackPix>(width*height)/2){
+    if(totalBlackPix>(100* 100)/2){
+        po::setColor(1,0,0,0.5);
+        // po::drawStrokedRect(x0, y0, x1-x0,y1-y0);
+        // po::drawStrokedRect(x0,y0,x1-x0, y1-y0);
+        po::drawFilledRect(600+x0,450+y0,x1-x0,y1-y0);//
+        po::setColor(1,1,1,1);
+
         cout<<"i'm here";   
         return true;
     }
     //cout << totalBlackPix << endl;
     else {
         return false;
+        cout<<"nothing is here";
     }
 }
 //how to do alpha channel

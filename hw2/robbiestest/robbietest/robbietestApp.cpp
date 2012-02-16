@@ -148,7 +148,7 @@ void robbietestApp::draw() {
      myImage9->fastDraw(600,450);
             threshold=22;
            
-           myImage9->somethingThere(700,450,800,500);
+           myImage9->somethingThere(100,200,300,300);
            
        //myImage9->calcThresh1(myImage1,myImage2);
     //        
@@ -162,18 +162,18 @@ void robbietestApp::draw() {
         myImage10->fastDraw(600,450);
     //    //    myImage->calcThresh2();
              threshold=50;
-             myImage10->somethingThere(750,500,800,550);
+             myImage10->somethingThere(100,200,300,300);
 
         }
          if(lastKeyDown=='3'){
     //        
             myImage5->fastDraw(100,100);
-    //        
+    //        /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/AppConfig.cpp
             myImage6->fastDraw(600,100);
     //        
             myImage11->fastDraw(600,450);
     //       // myImage->calcThresh3();
-             myImage11->somethingThere(700,500, 800,600);
+             myImage11->somethingThere(100,100, 300,300);
 
              threshold=23;
         }
@@ -185,7 +185,7 @@ void robbietestApp::draw() {
        myImage12->fastDraw(600,450);
        //  myImage->calcThresh4();
              threshold=50;
-             myImage12->somethingThere(700,500, 800,600);
+             myImage12->somethingThere(100,100, 300,300);
 
 }
     //    //myImage9->calcThresh1();
