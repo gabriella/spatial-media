@@ -63,9 +63,7 @@ void spatialMedia02App::eventHandler(poEvent *event) {
         mouseX = event->globalPosition.x;
         mouseY = event->globalPosition.y;
         
-        
         myImage->mouseX = mouseX;
-        
         
     }
     

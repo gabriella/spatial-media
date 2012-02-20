@@ -30,7 +30,7 @@ public:
     smImage*    myImage9;
     smImage*    myImage10;
     smImage*    myImage11;
-    smImage*    myImage12;
+    smImage*    labelImage;
     smImage* flood1;
     smImage* flood2;
     smImage* flood3;

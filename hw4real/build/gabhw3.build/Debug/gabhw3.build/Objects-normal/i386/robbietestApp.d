@@ -746,4 +746,5 @@ dependencies: \
   /pocode/libraries/Boost/boost_1_45_0/boost/preprocessor/seq/push_back.hpp \
   /pocode/libraries/Boost/boost_1_45_0/boost/preprocessor/detail/is_nullary.hpp \
   /pocode/libraries/Boost/boost_1_45_0/boost/signals2/shared_connection_block.hpp \
-  /pocode/libraries/pocode/include/poCamera.h
+  /pocode/libraries/pocode/include/poCamera.h \
+  /pocode/libraries/pocode/include/poSimpleDrawing.h
