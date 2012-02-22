@@ -25,6 +25,7 @@ public:
     smImage* flood2;
     smImage* flood3;
     smImage* sourceImage;
+   // void loadImage();
     
     int         threshold;
     int height, width;

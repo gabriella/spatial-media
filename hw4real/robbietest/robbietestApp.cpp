@@ -54,10 +54,10 @@ robbietestApp::robbietestApp() {
     flood3 = new smImage("flood3.raw",320,240);
     
     po::setColor(1,1,1,1);
-    height = 240;
-    width = 320;
+    //height = 240;
+   // width = 320;
     
-    int label=100;
+    label=100;
     
     
     //threshold = 20;
@@ -69,35 +69,38 @@ robbietestApp::~robbietestApp() {
 
 // UPDATE. Called once per frame. Animate objects here.
 void robbietestApp::update() {
-  
+    
+    
+    switch(lastKeyDown){
+        case '1':
+            sourceImage = flood1;
+            break;
+        case '2':
+            sourceImage = flood2;
+            break;
+        case '3':
+            sourceImage=flood3;
+            break;
+        default:
+            break;
+    }
+    
+    
+    
+    
+    
     //  load the source image (make sure it's already thresholded)
     //  make a new image, all black (pixels all set to 0), called the label image
-  
+    
     // calcImage();
-    for(int i=0;i<flood1->width;i++){
-        for(int j=0;j<flood1->height;j++){
-            flood1->thresh(i,j);
-            //cout<<"here";
+    for(int i=0;i<sourceImage->width;i++){
+        for(int j=0;j<sourceImage->height;j++){
+           // flood1->thresh(i,j);
             
-            //for every pixel in the image at x,y
-            //   if the pixel is not 0
-            //       call seedFill at x,y with the current label
-            //       increment the current label by 1
-            
-            
-            //                   int grayVal=sourceImage->getPixel(i,j);
-            //                    cout<<grayVal;
-            //                    
-            //                   if(grayVal!=0){
-            
-                      //sourceImage->seedFill(i,j,label);
-            
-            //  }
-
-
+                    
         }
     }
-
+    
     
 	for(int i=0;i<labelImage->width;i++){
         for(int j=0;j<labelImage->height;j++){
@@ -106,15 +109,16 @@ void robbietestApp::update() {
             labelImage->setPixel(i,j,col);
         }
     }
-            for(int i=0;i<flood1->width;i++){
-                for(int j=0;j<flood1->height;j++){
-            if(seedFill(i, j, label)==0)
-            {label+=1;}
-                }
-            }
-
+    // int label=200;
+    for(int i=0;i<sourceImage->width;i++){
+        for(int j=0;j<sourceImage->height;j++){
+            if(seedFill(i, j, label))
+            {label+=10;}
+        }
     }
-          
+    
+}
+
 
 // DRAW. Called once per frame. Draw objects here.
 void robbietestApp::draw() {
@@ -166,14 +170,12 @@ void robbietestApp::eventHandler(poEvent *event) {
     {
         mouseX = event->globalPosition.x;
         mouseY = event->globalPosition.y;
-        //      //  threshold = mouseX;
-        //        
-        //        
-        //        cout<<threshold <<"\n";
+  
     }
     //    
     if ( event->type == PO_KEY_DOWN_EVENT )
     {
+       
         lastKeyDown = event->keyChar;
         //        //mosmImage->
     }
@@ -188,34 +190,32 @@ void robbietestApp::imageTest(smImage image){
 }
 
 bool robbietestApp::seedFill(int x, int y, int label){
-    // seedFill( x, y, label )
     
-    // if the source image pixel at x,y is 0, return
-    // if the label image pixel at x,y is not 0, return //false
+ //   printf("seedFill: %d, %d, %d\n",x,y,label);
     
-    // set the pixel in the label image at x,y to the label value
-    
-    // call seedFill on the pixel to the north
-    // call seedFill on the pixel to the east
-    // call seedFill on the pixel to the south
-    // call seedFill on the pixel to the west
-    
-    
+  //  printf("pixel val: %d\n", sourceImage->getPixel(x,y));
+  // if(x>1&&y>1&&x<sourceImage->width-1&&y<sourceImage->height-1){
+
     if(sourceImage->getPixel(x,y)==0)
     {
-        return     ;
-    }
+        return  false   ;
+   // }
+   }
     if(labelImage->getPixel(x,y)!=0)
     {
-        return  ;
+        return  false;
+        
+    }    
     
+        labelImage->setPixel(x,y,label);
+        
+        seedFill(x,y-1, label);//north
+        seedFill(x+1, y, label);//east
+        seedFill(x-1, y, label);//west
+        seedFill(x, y+1, label);;//sourh
+        
+        return true;
+    }
     
-    labelImage->setPixel(x,y,label);
-    
-    seedFill(x,y-1, label);//north
-    seedFill(x+1, y, label);//east
-    seedFill(x-1, y, label);//west
-    seedFill(x, y+1, label);;//sourh
-    
-}
-}
+//}
+
