@@ -14,7 +14,7 @@
  
  seedFill( x, y, label )
  // if the source image pixel at x,y is 0, return
- // if the label image pixel at x,y is not 0, return
+ // if the label image pixel at x,y is not 0, return //false
  
  // set the pixel in the label image at x,y to the label value
  
@@ -47,15 +47,17 @@ robbietestApp::robbietestApp() {
     //    // make a new smImage
     
     labelImage = new smImage( 320,240 );
-    myImagetoWorkWith = new smImage(320,240);
+    sourceImage = new smImage(320,240);
     
     flood1 = new smImage("flood1.raw",320,240);
     flood2 = new smImage("flood2.raw",320, 240);
     flood3 = new smImage("flood3.raw",320,240);
     
     po::setColor(1,1,1,1);
+    height = 240;
+    width = 320;
     
-    
+    int label=100;
     
     
     //threshold = 20;
@@ -67,59 +69,52 @@ robbietestApp::~robbietestApp() {
 
 // UPDATE. Called once per frame. Animate objects here.
 void robbietestApp::update() {
+  
     //  load the source image (make sure it's already thresholded)
     //  make a new image, all black (pixels all set to 0), called the label image
-    
+  
+    // calcImage();
+    for(int i=0;i<flood1->width;i++){
+        for(int j=0;j<flood1->height;j++){
+            flood1->thresh(i,j);
+            //cout<<"here";
+            
+            //for every pixel in the image at x,y
+            //   if the pixel is not 0
+            //       call seedFill at x,y with the current label
+            //       increment the current label by 1
+            
+            
+            //                   int grayVal=sourceImage->getPixel(i,j);
+            //                    cout<<grayVal;
+            //                    
+            //                   if(grayVal!=0){
+            
+                      //sourceImage->seedFill(i,j,label);
+            
+            //  }
+
+
+        }
+    }
 
     
 	for(int i=0;i<labelImage->width;i++){
         for(int j=0;j<labelImage->height;j++){
-            int grayVal=0.5;// = labelImage->getPixel(i,j);
-            labelImage->setPixel(i,j,grayVal);
+            int col=0;// = labelImage->getPixel(i,j);
+            //    label=grayVal;
+            labelImage->setPixel(i,j,col);
         }
     }
-    
-    
-    switch (lastKeyDown) {
-            
-        case '1':
-            myImagetoWorkWith=flood1;
-            break;
-        case '2':
-            myImagetoWorkWith=flood2;
-            break;
-        case '3':
-            myImagetoWorkWith=flood3;
-            break;
-        default:
-            break;
-              
-            for(int i=0;i<myImagetoWorkWith->width;i++){
-                for(int j=0;j<myImagetoWorkWith->height;j++){
-                    myImagetoWorkWith->thresh(i,j);
-            
-    
-            //for every pixel in the image at x,y
-                //   if the pixel is not 0
-                //       call seedFill at x,y with the current label
-                //       increment the current label by 1
-    
-  
-                    
-                    
-                    
-    
+            for(int i=0;i<flood1->width;i++){
+                for(int j=0;j<flood1->height;j++){
+            if(seedFill(i, j, label)==0)
+            {label+=1;}
                 }
             }
-    
+
     }
-    
-    
-    
-    
-    
-    
-}
+          
 
 // DRAW. Called once per frame. Draw objects here.
 void robbietestApp::draw() {
@@ -138,7 +133,7 @@ void robbietestApp::draw() {
         //        
     }
     if(lastKeyDown=='2'){
-        flood2->fastDraw(100,100);
+        sourceImage->fastDraw(100,100);
         //        
         //        
         labelImage->fastDraw(600,450);
@@ -149,7 +144,7 @@ void robbietestApp::draw() {
     }
     if(lastKeyDown=='3'){
         //        
-        flood3->fastDraw(100,100);
+        sourceImage->fastDraw(100,100);
         //        /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/AppConfig.cpp
         //myImage6->fastDraw(600,100);
         //        
@@ -184,7 +179,6 @@ void robbietestApp::eventHandler(poEvent *event) {
     }
 }
 
-
 // MESSAGE HANDLER. Called from within the app. Use for message passing.
 void robbietestApp::messageHandler(const std::string &msg, const poDictionary& dict) {
 	
@@ -193,3 +187,35 @@ void robbietestApp::imageTest(smImage image){
     
 }
 
+bool robbietestApp::seedFill(int x, int y, int label){
+    // seedFill( x, y, label )
+    
+    // if the source image pixel at x,y is 0, return
+    // if the label image pixel at x,y is not 0, return //false
+    
+    // set the pixel in the label image at x,y to the label value
+    
+    // call seedFill on the pixel to the north
+    // call seedFill on the pixel to the east
+    // call seedFill on the pixel to the south
+    // call seedFill on the pixel to the west
+    
+    
+    if(sourceImage->getPixel(x,y)==0)
+    {
+        return     ;
+    }
+    if(labelImage->getPixel(x,y)!=0)
+    {
+        return  ;
+    
+    
+    labelImage->setPixel(x,y,label);
+    
+    seedFill(x,y-1, label);//north
+    seedFill(x+1, y, label);//east
+    seedFill(x-1, y, label);//west
+    seedFill(x, y+1, label);;//sourh
+    
+}
+}

@@ -149,7 +149,7 @@ bool smImage::somethingThere(int x0, int y0, int x1, int y1){
 void smImage::thresh(float x, float y){
     int grayVal = getPixel(x,y);
     if(grayVal>127){
-        grayVal=0;
+        grayVal=255;
         
     }
     if(grayVal<=127){
@@ -158,7 +158,6 @@ void smImage::thresh(float x, float y){
     setPixel(x,y,grayVal);
     
 }
-
 
 
 

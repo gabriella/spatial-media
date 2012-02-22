@@ -25,6 +25,8 @@ public:
     int     getPixel( int x, int y );
     void    setPixel( int x, int y, int grayValue );
     
+   // bool seedFill(int x, int y, int label);
+    
     // image data variables
     int             width, height;
     unsigned char*  imageData;
