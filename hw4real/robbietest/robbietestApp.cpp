@@ -69,8 +69,15 @@ robbietestApp::~robbietestApp() {
 
 // UPDATE. Called once per frame. Animate objects here.
 void robbietestApp::update() {
-    
-    
+
+   // label=0;
+    cout<<lastKeyDown;    
+    for(int i=0;i<sourceImage->width;i++){
+        for(int j=0;j<sourceImage->height;j++){
+            if(seedFill(i, j, label))
+            {label+=10;}
+  }
+   }
     switch(lastKeyDown){
         case '1':
             sourceImage = flood1;
@@ -83,82 +90,19 @@ void robbietestApp::update() {
             break;
         default:
             break;
-    }
-    
-    
-    
-    
-    
-    //  load the source image (make sure it's already thresholded)
-    //  make a new image, all black (pixels all set to 0), called the label image
-    
-    // calcImage();
-    for(int i=0;i<sourceImage->width;i++){
-        for(int j=0;j<sourceImage->height;j++){
-           // flood1->thresh(i,j);
             
-                    
-        }
     }
-    
-    
-	for(int i=0;i<labelImage->width;i++){
-        for(int j=0;j<labelImage->height;j++){
-            int col=0;// = labelImage->getPixel(i,j);
-            //    label=grayVal;
-            labelImage->setPixel(i,j,col);
-        }
     }
-    // int label=200;
-    for(int i=0;i<sourceImage->width;i++){
-        for(int j=0;j<sourceImage->height;j++){
-            if(seedFill(i, j, label))
-            {label+=10;}
-        }
-    }
-    
-}
 
 
 // DRAW. Called once per frame. Draw objects here.
 void robbietestApp::draw() {
     po::drawFilledRect(0,0,getWindowWidth(), getWindowHeight());       
-    if(lastKeyDown=='1'){
-        //    
-        flood1->fastDraw(100,100);
-        //    
-        
-        //    
+           sourceImage->fastDraw(100,100 );
+       
         labelImage->fastDraw(600,450);
         
-        
-        //myImage9->calcThresh1(myImage1,myImage2);
-        //        
-        //        
-    }
-    if(lastKeyDown=='2'){
-        sourceImage->fastDraw(100,100);
-        //        
-        //        
-        labelImage->fastDraw(600,450);
-        //    //    myImage->calcThresh2();
-        // threshold=50;
-        // myImage10->somethingThere(100,200,300,300);
-        
-    }
-    if(lastKeyDown=='3'){
-        //        
-        sourceImage->fastDraw(100,100);
-        //        /Users/administrator/Documents/pocode/Spatial_Media/hw2/robbiestest/robbietest/AppConfig.cpp
-        //myImage6->fastDraw(600,100);
-        //        
-        labelImage->fastDraw(600,450);
-        //       // myImage->calcThresh3();
-        // myImage11->somethingThere(100,100, 300,300);
-        
-        // threshold=23;
-    }
-    //    //myImage9->calcThresh1();
+       
 }
 
 
@@ -177,7 +121,12 @@ void robbietestApp::eventHandler(poEvent *event) {
     {
        
         lastKeyDown = event->keyChar;
-        //        //mosmImage->
+       // label=0;
+//        for(int x=0;x<labelImage->width;x++){
+//            for (int y=0;y<labelImage->height;y++){
+//                labelImage->setPixel(x,y,0);   
+//            }
+//        }
     }
 }
 
@@ -193,8 +142,7 @@ bool robbietestApp::seedFill(int x, int y, int label){
     
  //   printf("seedFill: %d, %d, %d\n",x,y,label);
     
-  //  printf("pixel val: %d\n", sourceImage->getPixel(x,y));
-  // if(x>1&&y>1&&x<sourceImage->width-1&&y<sourceImage->height-1){
+   //printf("pixel val: %d\n", sourceImage->getPixel(x,y));
 
     if(sourceImage->getPixel(x,y)==0)
     {
@@ -203,19 +151,23 @@ bool robbietestApp::seedFill(int x, int y, int label){
    }
     if(labelImage->getPixel(x,y)!=0)
     {
+        //cout<<"first get pixel event";
         return  false;
         
     }    
+//cout<<"second getPixel";
     
         labelImage->setPixel(x,y,label);
-        
+    
+    if(x>1&&y>1&&x<sourceImage->width-1&&y<sourceImage->height-1){
+
         seedFill(x,y-1, label);//north
         seedFill(x+1, y, label);//east
         seedFill(x-1, y, label);//west
         seedFill(x, y+1, label);;//sourh
         
-        return true;
     }
-    
-//}
+    return true;
+
+}
 

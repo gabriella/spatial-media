@@ -1,4 +1,4 @@
-//  smImage.cpp
+ //  smImage.cpp
 //  spatialMedia
 
 
@@ -38,7 +38,7 @@ smImage::smImage( int W, int H )
     
     // load in the image data from file
     imageData = new unsigned char [ width*height ];     // allocate memory for the image
-    memset( imageData, 255, width*height );
+    memset( imageData, 0, width*height );
     
     // used for fastDraw method
     imageAsTexture = new poTexture( width, height, imageData, poTextureConfig(GL_LUMINANCE) );
