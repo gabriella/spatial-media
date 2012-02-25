@@ -3,12 +3,12 @@ v4
 r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/gabhw3.app/Contents/Info.plist platform/main.plist
-cProcessPCH /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-dswptynrflemxadveikplqidapds/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-fkpkhhmnyzlfvnbcfluhsynewijr/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-dswptynrflemxadveikplqidapds/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-bfdgefwnzyzqpqfnvkbnvetmczud/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.o /Users/administrator/Documents/pocode/Spatial_Media/hw4real/robbietest/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.o /Users/administrator/Documents/pocode/Spatial_Media/hw4real/robbietest/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/poOpenGLView.o /Users/administrator/Documents/pocode/Spatial_Media/hw4real/robbietest/../platform/poOpenGLView.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppDelegate.o /Users/administrator/Documents/pocode/Spatial_Media/hw4real/robbietest/../platform/AppDelegate.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/main.o /Users/administrator/Documents/pocode/Spatial_Media/hw4real/robbietest/../platform/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o /Users/administrator/Documents/pocode/Spatial_Media/hw4real/robbietest/robbietestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.o /Users/administrator/Documents/pocode/Spatial_Media/hw4real/robbietest/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.o /Users/administrator/Documents/pocode/Spatial_Media/hw4real/robbietest/smImage.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -390,7 +390,7 @@ t1329411278
 s866
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/gabhw3.app
-t1330014886
+t1330193457
 s102
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/gabhw3.app/Contents/Info.plist
@@ -398,7 +398,7 @@ t1329411278
 s1268
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/gabhw3.app/Contents/MacOS/gabhw3
-t1330014886
+t1330193457
 s7494992
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/gabhw3.app/Contents/PkgInfo
@@ -439,8 +439,8 @@ t1329775746
 s414416
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o
-t1330014886
-s431416
+t1330193457
+s431432
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/smImage.o
 t1330014803
@@ -492,9 +492,9 @@ t1329411278
 s397
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw4real/robbietest/robbietestApp.cpp
-c000000004F466AB20000000000000FA2
-t1330014898
-s4002
+c000000004F492457000000000000107B
+t1330193495
+s4219
 
 N/Users/administrator/Documents/pocode/Spatial_Media/hw4real/robbietest/robbietestApp.h
 c000000004F446F4500000000000002E1
@@ -4525,7 +4525,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb08c3532a2f6b441^66113a32a2f6b441^---0#1#0#--18"Check dependencies36"427F22F2-D4A4-4929-9FF8-1A0C93956B11-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese83201d85bf9b441^cc2402d85bf9b441^---0#1#0#--18"Check dependencies36"47BB568B-592D-4D1C-9F1D-DE948E3C2358-
 
 CCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/AppConfig.o /Users/administrator/Documents/pocode/Spatial_Media/HOMEWORK3/robbietest/AppConfig.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s351379689.889748
@@ -4827,8 +4827,8 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw4/robbietest/robbietestApp.cppea59d874f4f2b441^e0828078f4f2b441^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw4/robbietest/robbietestApp.cpp0000000000000000^2530"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o robbietest/robbietestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw4    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw4/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw4/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw4/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw4/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw4/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw4/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw4/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw4/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-eghuevvqvqwdbyacwuacyfypahuu/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw4/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw4/robbietest/robbietestApp.cpp -o /Users/administrator/Documents/pocode/Spatial_Media/hw4/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o36"698E2992-DA1E-4598-9B7A-207FC406D2D5-
 
 CCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o /Users/administrator/Documents/pocode/Spatial_Media/hw4real/robbietest/robbietestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s351707698.259790
-e351707701.324165
+s351886296.056950
+e351886300.170281
 r1
 xCompileC
 xbuild/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o
@@ -4837,7 +4837,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw4real/robbietest/robbietestApp.cpp2fa54232a2f6b441^44fd5235a2f6b441^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw4real/robbietest/robbietestApp.cpp0000000000000000^2578"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o robbietest/robbietestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw4real    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-bfdgefwnzyzqpqfnvkbnvetmczud/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw4real/robbietest/robbietestApp.cpp -o /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o36"A084AB4C-7991-450E-B988-DC00E8AAC970-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/administrator/Documents/pocode/Spatial_Media/hw4real/robbietest/robbietestApp.cpp5fb50ed85bf9b441^dd972bdc5bf9b441^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/hw4real/robbietest/robbietestApp.cpp0000000000000000^2578"CompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o robbietest/robbietestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/hw4real    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/gabhw3-generated-files.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/gabhw3-own-target-headers.hmap -I/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/gabhw3-all-target-headers.hmap -iquote /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/gabhw3-project-headers.hmap -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries -I/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/DerivedSources/i386 -I/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/DerivedSources -F/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-bfdgefwnzyzqpqfnvkbnvetmczud/main.pch -MMD -MT dependencies -MF /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.d -c /Users/administrator/Documents/pocode/Spatial_Media/hw4real/robbietest/robbietestApp.cpp -o /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o36"54F7B82C-E774-4456-9F61-011CD5F4A342-
 
 CCompileC build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/robbietestApp.o /Users/administrator/Downloads/gabriella-spatial-media-23ec824/hw2/robbiestest/robbietest/robbietestApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s351379510.637667
@@ -5001,15 +5001,15 @@ old: warning: direct access in __ZN5boost6system12system_errorD2Ev to global wea
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Link /Users/administrator/Documents/pocode/Spatial_Media/hw4/build/Debug/gabhw3.app/Contents/MacOS/gabhw35d886d78f4f2b441^2aa72179f4f2b441^-283"ld: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@269"Direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-351466616#0#283#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--831"Ld build/Debug/gabhw3.app/Contents/MacOS/gabhw3 normal i386    cd /Users/administrator/Documents/pocode/Spatial_Media/hw4    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang++ -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/administrator/Documents/pocode/Spatial_Media/hw4/build/Debug -L/pocode/libraries/pocode -F/Users/administrator/Documents/pocode/Spatial_Media/hw4/build/Debug -filelist /Users/administrator/Documents/pocode/Spatial_Media/hw4/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/gabhw3.LinkFileList -mmacosx-version-min=10.6 -lpocode_d /usr/lib/libsqlite3.0.dylib -framework Cocoa -framework ApplicationServices -framework OpenGL -framework CoreVideo -framework QTKit -o /Users/administrator/Documents/pocode/Spatial_Media/hw4/build/Debug/gabhw3.app/Contents/MacOS/gabhw336"CBA36E0E-6414-4AC8-9B46-028F8F31C5A4-
 
 CLd /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/gabhw3.app/Contents/MacOS/gabhw3 normal i386
-s351707701.325853
-e351707701.757257
+s351886300.171875
+e351886300.720059
 r1
 xLd
 x/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/gabhw3.app/Contents/MacOS/gabhw3
 xnormal
 xi386
 old: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Link /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/gabhw3.app/Contents/MacOS/gabhw3dc805335a2f6b441^09ddc135a2f6b441^-283"ld: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@269"Direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-351707701#0#283#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--851"Ld build/Debug/gabhw3.app/Contents/MacOS/gabhw3 normal i386    cd /Users/administrator/Documents/pocode/Spatial_Media/hw4real    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang++ -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug -L/pocode/libraries/pocode -F/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug -filelist /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/gabhw3.LinkFileList -mmacosx-version-min=10.6 -lpocode_d /usr/lib/libsqlite3.0.dylib -framework Cocoa -framework ApplicationServices -framework OpenGL -framework CoreVideo -framework QTKit -o /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/gabhw3.app/Contents/MacOS/gabhw336"6CA7AB0A-2B20-4A57-8E93-C00798A2191E-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Link /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/gabhw3.app/Contents/MacOS/gabhw306122cdc5bf9b441^0e65b8dc5bf9b441^-283"ld: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@269"Direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-351886300#0#283#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--851"Ld build/Debug/gabhw3.app/Contents/MacOS/gabhw3 normal i386    cd /Users/administrator/Documents/pocode/Spatial_Media/hw4real    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang++ -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug -L/pocode/libraries/pocode -F/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug -filelist /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/gabhw3.build/Debug/gabhw3.build/Objects-normal/i386/gabhw3.LinkFileList -mmacosx-version-min=10.6 -lpocode_d /usr/lib/libsqlite3.0.dylib -framework Cocoa -framework ApplicationServices -framework OpenGL -framework CoreVideo -framework QTKit -o /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/gabhw3.app/Contents/MacOS/gabhw336"A9EB1833-88C4-40BD-9EA8-5C318D73ADD8-
 
 CLd /Users/administrator/Downloads/gabriella-spatial-media-23ec824/hw2/robbiestest/build/Debug/gabhw3.app/Contents/MacOS/gabhw3 normal i386
 s351379576.870884
@@ -5308,12 +5308,12 @@ x/Users/administrator/Documents/pocode/Spatial_Media/hw4/build/Debug/gabhw3.app
 lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Touch /Users/administrator/Documents/pocode/Spatial_Media/hw4/build/Debug/gabhw3.app501d2379f4f2b441^27112579f4f2b441^---0#0#0#--193"Touch build/Debug/gabhw3.app    cd /Users/administrator/Documents/pocode/Spatial_Media/hw4    /usr/bin/touch -c /Users/administrator/Documents/pocode/Spatial_Media/hw4/build/Debug/gabhw3.app36"EACC681E-0E09-497C-A329-D0A8E0B520DB-
 
 CTouch /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/gabhw3.app
-s351707701.762665
-e351707701.769879
+s351886300.725401
+e351886300.731827
 r1
 xTouch
 x/Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/gabhw3.app
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Touch /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/gabhw3.app014ec335a2f6b441^e318c535a2f6b441^---0#0#0#--201"Touch build/Debug/gabhw3.app    cd /Users/administrator/Documents/pocode/Spatial_Media/hw4real    /usr/bin/touch -c /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/gabhw3.app36"83C042D3-2429-460B-A107-931953A08A9C-
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Touch /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/gabhw3.app09c6b9dc5bf9b441^cd59bbdc5bf9b441^---0#0#0#--201"Touch build/Debug/gabhw3.app    cd /Users/administrator/Documents/pocode/Spatial_Media/hw4real    /usr/bin/touch -c /Users/administrator/Documents/pocode/Spatial_Media/hw4real/build/Debug/gabhw3.app36"B90BC75D-EAF2-45B4-AD76-C4EB69585E15-
 
 CTouch /Users/administrator/Downloads/gabriella-spatial-media-23ec824/hw2/robbiestest/build/Debug/gabhw3.app
 s351379580.012732

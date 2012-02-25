@@ -71,14 +71,7 @@ robbietestApp::~robbietestApp() {
 void robbietestApp::update() {
 
    // label=0;
-    cout<<lastKeyDown;    
-    for(int i=0;i<sourceImage->width;i++){
-        for(int j=0;j<sourceImage->height;j++){
-            if(seedFill(i, j, label))
-            {label+=10;}
-  }
-   }
-    switch(lastKeyDown){
+        switch(lastKeyDown){
         case '1':
             sourceImage = flood1;
             break;
@@ -92,16 +85,34 @@ void robbietestApp::update() {
             break;
             
     }
+//    for(int i=1;i<labelImage->width-1;i++){
+//        for(int j=1;j<labelImage->height-1;j++){
+//            labelImage->setPixel(i,j,0);
+//        }
+//        
+//    }
+    cout<<lastKeyDown;    
+    for(int i=0;i<sourceImage->width;i++){
+        for(int j=0;j<sourceImage->height;j++){
+            if(seedFill(i, j, label))
+            {label+=10;}
+        }
+    }
+
     }
 
 
 // DRAW. Called once per frame. Draw objects here.
 void robbietestApp::draw() {
     po::drawFilledRect(0,0,getWindowWidth(), getWindowHeight());       
-           sourceImage->fastDraw(100,100 );
-       
-        labelImage->fastDraw(600,450);
-        
+
+    
+    
+    
+    sourceImage->fastDraw(100,100 );
+    
+    labelImage->fastDraw(600,450);
+
        
 }
 
@@ -122,11 +133,11 @@ void robbietestApp::eventHandler(poEvent *event) {
        
         lastKeyDown = event->keyChar;
        // label=0;
-//        for(int x=0;x<labelImage->width;x++){
-//            for (int y=0;y<labelImage->height;y++){
-//                labelImage->setPixel(x,y,0);   
-//            }
-//        }
+        for(int x=0;x<labelImage->width;x++){
+            for (int y=0;y<labelImage->height;y++){
+                labelImage->setPixel(x,y,0);   
+            }
+        }
     }
 }
 
@@ -143,7 +154,7 @@ bool robbietestApp::seedFill(int x, int y, int label){
  //   printf("seedFill: %d, %d, %d\n",x,y,label);
     
    //printf("pixel val: %d\n", sourceImage->getPixel(x,y));
-
+  
     if(sourceImage->getPixel(x,y)==0)
     {
         return  false   ;

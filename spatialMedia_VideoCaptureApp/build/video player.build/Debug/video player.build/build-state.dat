@@ -1,0 +1,413 @@
+Tvideo player
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Info.plist" platform/main.plist
+cProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ddblwyxetruyvebxdcuplryeyrfj/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-dwfriipqbmwkvqbrpikhnvkfmyew/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-cvjskettbowwxiglukaxwfxobwro/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/video_playerApp.o" "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/video_playerApp.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/AppDelegate.o" "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/AppDelegate.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoPlayer.o" "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/poVideoPlayer.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/poOpenGLView.o" "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/poOpenGLView.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/main.o" "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/AppConfig.o" "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/AppConfig.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoCapture.o" "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/poVideoCapture.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/smImage.o" "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/smImage.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/MacOS/video player" normal i386
+cCopyStringsFile "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Resources/en.strings" "video player/../platform/en.strings"
+cCpResource platform/main.pch "build/Debug/video player.app/Contents/Resources/main.pch"
+cCompileXIB "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/main.xib"
+cTouch "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004F23212800000000000000EE
+t1327702312
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOSurface.framework/IOSurface
+c000000004E2F297D000000000000DD50
+t1311713661
+s56656
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QTKit.framework/QTKit
+c000000004E2F297E0000000000086D20
+t1311713662
+s552224
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuickTime.framework/QuickTime
+c000000004E2F297E000000000009BE08
+t1311713662
+s638472
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app
+t2
+s0
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Info.plist
+t2
+s0
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/MacOS/video player
+t2
+s0
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Resources/en.strings
+t2
+s0
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Resources/main.nib
+t2
+s0
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Resources/main.pch
+t2
+s0
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/AppConfig.o
+t2
+s0
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/poOpenGLView.o
+t2
+s0
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoCapture.o
+t2
+s0
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoPlayer.o
+t2
+s0
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/smImage.o
+t2
+s0
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/video player.LinkFileList
+c000000004F491D550000000000000525
+t1330191701
+s1317
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/video_playerApp.o
+t2
+s0
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/platform/main.pch
+c000000004F3C2EB20000000000000000
+t1329344178
+s0
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/AppDelegate.mm
+c000000004F3C2EB20000000000001E1D
+t1329344178
+s7709
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/en.strings
+c000000004F3C2EB2000000000000002D
+t1329344178
+s45
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/main.m
+c000000004F3C2EB20000000000000077
+t1329344178
+s119
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/main.xib
+c000000004F3C2EB20000000000006176
+t1329344178
+s24950
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/poOpenGLView.mm
+c000000004F456D6500000000000012F4
+t1329950053
+s4852
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/AppConfig.cpp
+c000000004F3C2EB20000000000000193
+t1329344178
+s403
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/poVideoCapture.mm
+c000000004F4572AD00000000000015CC
+t1329951405
+s5580
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/poVideoPlayer.mm
+c000000004F456CE90000000000001763
+t1329949929
+s5987
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/smImage.cpp
+c000000004F49088D0000000000000CFF
+t1330186381
+s3327
+
+N/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/video_playerApp.mm
+c000000004F4908FE00000000000005FB
+t1330186494
+s1531
+
+N/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-cvjskettbowwxiglukaxwfxobwro/main.pch.pth
+t2
+s0
+
+N/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ddblwyxetruyvebxdcuplryeyrfj/main.pch.pth
+t2
+s0
+
+N/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-dwfriipqbmwkvqbrpikhnvkfmyew/main.pch.pth
+t2
+s0
+
+Nplatform/main.plist
+c000000004F3C2EB200000000000003E2
+t1329344178
+s994
+
+CBuild AST from "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/AppDelegate.mm"
+r0
+
+CBuild AST from "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/main.m"
+r0
+
+CBuild AST from "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/poOpenGLView.mm"
+r0
+
+CBuild AST from "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/AppConfig.cpp"
+r0
+
+CBuild AST from "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/poVideoCapture.mm"
+r0
+
+CBuild AST from "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/poVideoPlayer.mm"
+r0
+
+CBuild AST from "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/smImage.cpp"
+r0
+
+CBuild AST from "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/video_playerApp.mm"
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies085596d554f9b441^33dc98d654f9b441^---0#1#0#--18"Check dependencies36"3A54F958-B52E-460C-AC8B-9CCAAF23DDB0-
+
+CCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/AppConfig.o" "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/AppConfig.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s351884548.944721
+e351884558.380197
+r1
+xCompileC
+xbuild/video player.build/Debug/video player.build/Objects-normal/i386/AppConfig.o
+x/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/AppConfig.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/AppConfig.cpp6937f20455f9b441^3354610e55f9b441^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video%20player/AppConfig.cpp0000000000000000^3021"CompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/AppConfig.o" "video player/AppConfig.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" -F/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-cvjskettbowwxiglukaxwfxobwro/main.pch -MMD -MT dependencies -MF "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/AppConfig.d" -c "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/AppConfig.cpp" -o "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/AppConfig.o"36"ED2DB2B5-EE9B-4FEC-80DC-5E4618EA74A3-
+
+CCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/AppDelegate.o" "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/AppDelegate.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s351884503.565733
+e351884550.405813
+r1
+xCompileC
+xbuild/video player.build/Debug/video player.build/Objects-normal/i386/AppDelegate.o
+x/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/AppDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/AppDelegate.mm3e5991d754f9b441^f8e2670655f9b441^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video%20player/../platform/AppDelegate.mm0000000000000000^3249"CompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/AppDelegate.o" "video player/../platform/AppDelegate.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" -F/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ddblwyxetruyvebxdcuplryeyrfj/main.pch -MMD -MT dependencies -MF "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/AppDelegate.d" -c "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/AppDelegate.mm" -o "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/AppDelegate.o"36"9E2B8DD9-EF30-457E-8268-54DFA25A3B2A-
+
+CCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/main.o" "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351884547.048217
+e351884548.943222
+r1
+xCompileC
+xbuild/video player.build/Debug/video player.build/Objects-normal/i386/main.o
+x/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/main.md5b30c0355f9b441^2192f10455f9b441^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video%20player/../platform/main.m0000000000000000^3148"CompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/main.o" "video player/../platform/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" -F/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-dwfriipqbmwkvqbrpikhnvkfmyew/main.pch -MMD -MT dependencies -MF "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/main.d" -c "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/main.m" -o "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/main.o"36"402A685E-3C49-4A7D-A393-124D3E0DC403-
+
+CCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/poOpenGLView.o" "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/poOpenGLView.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s351884503.569216
+e351884550.295637
+r1
+xCompileC
+xbuild/video player.build/Debug/video player.build/Objects-normal/i386/poOpenGLView.o
+x/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/poOpenGLView.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/poOpenGLView.mm072792d754f9b441^e2ad4b0655f9b441^---0#0#0#-19%DVTDocumentLocation2@139"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video%20player/../platform/poOpenGLView.mm0000000000000000^3254"CompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/poOpenGLView.o" "video player/../platform/poOpenGLView.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" -F/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ddblwyxetruyvebxdcuplryeyrfj/main.pch -MMD -MT dependencies -MF "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/poOpenGLView.d" -c "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/poOpenGLView.mm" -o "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/poOpenGLView.o"36"65E3FE50-3359-4069-964A-5BF1E9E517A7-
+
+CCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoCapture.o" "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/poVideoCapture.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s351884550.297412
+e351884559.464322
+r1
+xCompileC
+xbuild/video player.build/Debug/video player.build/Objects-normal/i386/poVideoCapture.o
+x/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/poVideoCapture.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Compile /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/poVideoCapture.mm4d814c0655f9b441^a0e0760f55f9b441^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video%20player/poVideoCapture.mm0000000000000000^3240"CompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoCapture.o" "video player/poVideoCapture.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" -F/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ddblwyxetruyvebxdcuplryeyrfj/main.pch -MMD -MT dependencies -MF "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoCapture.d" -c "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/poVideoCapture.mm" -o "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoCapture.o"36"68E6CB11-F19E-41FB-BC27-D07D32884BAB-
+
+CCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoPlayer.o" "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/poVideoPlayer.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s351884503.565902
+e351884555.709603
+r1
+xCompileC
+xbuild/video player.build/Debug/video player.build/Objects-normal/i386/poVideoPlayer.o
+x/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/poVideoPlayer.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/poVideoPlayer.mmb53291d754f9b441^58a8b50b55f9b441^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video%20player/poVideoPlayer.mm0000000000000000^3235"CompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoPlayer.o" "video player/poVideoPlayer.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" -F/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ddblwyxetruyvebxdcuplryeyrfj/main.pch -MMD -MT dependencies -MF "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoPlayer.d" -c "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/poVideoPlayer.mm" -o "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/poVideoPlayer.o"36"89DF1F96-5A35-4A72-A3EE-AA83BAEA987B-
+
+CCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/smImage.o" "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/smImage.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s351884550.407414
+e351884559.154108
+r1
+xCompileC
+xbuild/video player.build/Debug/video player.build/Objects-normal/i386/smImage.o
+x/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/smImage.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/smImage.cppb4ab680655f9b441^5c73270f55f9b441^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video%20player/smImage.cpp0000000000000000^3011"CompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/smImage.o" "video player/smImage.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" -F/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-cvjskettbowwxiglukaxwfxobwro/main.pch -MMD -MT dependencies -MF "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/smImage.d" -c "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/smImage.cpp" -o "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/smImage.o"36"9EC29A9C-6DC1-446A-9541-5D544EF37498-
+
+CCompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/video_playerApp.o" "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/video_playerApp.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s351884503.565680
+e351884547.046590
+r1
+xCompileC
+xbuild/video player.build/Debug/video player.build/Objects-normal/i386/video_playerApp.o
+x/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/video_playerApp.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/video_playerApp.mm882d91d754f9b441^78ec0b0355f9b441^---0#0#0#-19%DVTDocumentLocation2@130"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video%20player/video_playerApp.mm0000000000000000^3245"CompileC "build/video player.build/Debug/video player.build/Objects-normal/i386/video_playerApp.o" "video player/video_playerApp.mm" normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++ -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" -F/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug -include /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ddblwyxetruyvebxdcuplryeyrfj/main.pch -MMD -MT dependencies -MF "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/video_playerApp.d" -c "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/video_playerApp.mm" -o "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/video_playerApp.o"36"E2D3B4E6-A75C-43D6-A05C-AE76B734EE46-
+
+CCompileXIB "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/main.xib"
+s351884563.081487
+e351884569.115174
+r1
+xCompileXIB
+x/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/main.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compiling /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/main.xib9b02151355f9b441^f67c1d1955f9b441^---0#0#0#-19%DVTDocumentLocation2@132"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video%20player/../platform/main.xib0000000000000000^593"CompileXIB "video player/../platform/main.xib"    cd /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Resources/main.nib" "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video player/../platform/main.xib" --sdk /Developer/SDKs/MacOSX10.6.sdk36"340F4F8F-3C2D-464F-A9A0-E952F913A982-
+
+CCopyStringsFile "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Resources/en.strings" "video player/../platform/en.strings"
+s351884563.081028
+e351884563.138564
+r1
+xCopyStringsFile
+x/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Resources/en.strings
+xvideo player/../platform/en.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy video player/../platform/en.strings041d191355f9b441^ee78231355f9b441^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/video%20player/../platform/en.strings0000000000000000^465"CopyStringsFile "build/Debug/video player.app/Contents/Resources/en.strings" "video player/../platform/en.strings"    cd /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Resources" -- "video player/../platform/en.strings"36"B4D9E696-B881-439A-9700-FDDE38844CF7-
+
+CCpResource platform/main.pch "build/Debug/video player.app/Contents/Resources/main.pch"
+s351884563.081433
+e351884563.103867
+r1
+xCpResource
+xplatform/main.pch
+xbuild/Debug/video player.app/Contents/Resources/main.pch
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug/video player.app/Contents/Resources/main.pch2e1f191355f9b441^35981a1355f9b441^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video%20player.app/Contents/Resources/main.pch00f8bc47dcffdf42^518"CpResource platform/main.pch "build/Debug/video player.app/Contents/Resources/main.pch"    cd /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/platform/main.pch "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Resources"36"2CEB5E0B-E575-4773-A011-407FA56B70AF-
+
+CLd "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/MacOS/video player" normal i386
+s351884559.466455
+e351884563.077524
+r1
+xLd
+x/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/MacOS/video player
+xnormal
+xi386
+old: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Link /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/MacOS/video player9790770f55f9b441^23d9131355f9b441^-283"ld: warning: direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@269"Direct access in __ZN5boost6system12system_errorD2Ev to global weak symbol __ZTVN5boost6system12system_errorE means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-351884562#0#283#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#0#--1063"Ld "build/Debug/video player.app/Contents/MacOS/video player" normal i386    cd /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang++ -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug -L/pocode/libraries/pocode -F/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug -filelist "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/Objects-normal/i386/video player.LinkFileList" -mmacosx-version-min=10.6 -lpocode_d /usr/lib/libsqlite3.0.dylib -framework Cocoa -framework ApplicationServices -framework OpenGL -framework CoreVideo -framework QTKit -framework IOSurface -framework QTKit -framework QuickTime -o "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/MacOS/video player"36"F0633878-D679-4CD9-9078-5D353D6AC73F-
+
+CProcessInfoPlistFile "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Info.plist" platform/main.plist
+s351884502.227704
+e351884502.274450
+r1
+xProcessInfoPlistFile
+x/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Info.plist
+xplatform/main.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Process platform/main.plistbfd13ad654f9b441^f8c664d754f9b441^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/platform/main.plist0000000000000000^543"ProcessInfoPlistFile "build/Debug/video player.app/Contents/Info.plist" platform/main.plist    cd /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp    builtin-infoPlistUtility platform/main.plist -genpkginfo "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app/Contents/Info.plist"36"817DAE8F-97AD-470F-ADD5-AC1864B98BCA-
+
+CProcessPCH /Users/administrator/Library/Developer/Xcode/DerivedData/video_player-fjpzhychplrtiofnjuymefgjofml/Index/PrecompiledHeaders/main-bsjpcpgqbztzuffaufdkveprtxei_ast/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-dwfriipqbmwkvqbrpikhnvkfmyew/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s351884502.278422
+e351884503.567815
+r1
+xProcessPCH
+x/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-dwfriipqbmwkvqbrpikhnvkfmyew/main.pch.pth
+xplatform/main.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pch3a9647d654f9b441^71918fd854f9b441^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/platform/main.pch0000000000000000^3009"ProcessPCH /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-dwfriipqbmwkvqbrpikhnvkfmyew/main.pch.pth platform/main.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" -F/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug -c /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/platform/main.pch -o /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-dwfriipqbmwkvqbrpikhnvkfmyew/main.pch.pth -MMD -MT dependencies -MF /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-dwfriipqbmwkvqbrpikhnvkfmyew/main.pch.d36"2CAA3532-099F-43CD-943F-6B41DB6CB089-
+
+CProcessPCH++ /Users/administrator/Library/Developer/Xcode/DerivedData/video_player-fjpzhychplrtiofnjuymefgjofml/Index/PrecompiledHeaders/main-ahymcbwhakzpadezccgyvwkkskyl_ast/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/administrator/Library/Developer/Xcode/DerivedData/video_player-fjpzhychplrtiofnjuymefgjofml/Index/PrecompiledHeaders/main-djoeyyuwgmlciqfcpkvdkpyxsyhv_ast/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-cvjskettbowwxiglukaxwfxobwro/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s351884502.278713
+e351884503.564264
+r1
+xProcessPCH++
+x/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-cvjskettbowwxiglukaxwfxobwro/main.pch.pth
+xplatform/main.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pchf2b147d654f9b441^50898fd854f9b441^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/platform/main.pch0000000000000000^2879"ProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-cvjskettbowwxiglukaxwfxobwro/main.pch.pth platform/main.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" -F/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug -c /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/platform/main.pch -o /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-cvjskettbowwxiglukaxwfxobwro/main.pch.pth -MMD -MT dependencies -MF /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-cvjskettbowwxiglukaxwfxobwro/main.pch.d36"F8ABC351-93D1-40F3-A838-65535A6D659D-
+
+CProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ddblwyxetruyvebxdcuplryeyrfj/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s351884502.277777
+e351884503.564162
+r1
+xProcessPCH++
+x/var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ddblwyxetruyvebxdcuplryeyrfj/main.pch.pth
+xplatform/main.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile platform/main.pch147847d654f9b441^c0778fd854f9b441^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/platform/main.pch0000000000000000^3075"ProcessPCH++ /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ddblwyxetruyvebxdcuplryeyrfj/main.pch.pth platform/main.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c++-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wno-return-type -Wparentheses -Wno-switch -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-shorten-64-to-32 -Wno-arc-abi -Wc++0x-extensions -DDEBUG -DTIXML_USE_STL -DDEBUG -DTIXML_USE_STL -DBOOST_FILESYSTEM_VERSION=3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-generated-files.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-own-target-headers.hmap" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-all-target-headers.hmap" -iquote "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/video player-project-headers.hmap" -iquote/pocode/libraries/pocode -I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/include -I/pocode/libraries/pocode/include -I/pocode/libraries/Boost/boost_1_45_0 -I/pocode/libraries/FreeImage -I/pocode/libraries/TinyXPath -I/pocode/libraries/FreeType -I/pocode/libraries/utf8 -I/pocode/libraries/libMikko -I/pocode/libraries/bz2 -I/pocode/libraries/pugixml -I/pocode/libraries "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources/i386" "-I/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/video player.build/Debug/video player.build/DerivedSources" -F/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug -c /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/platform/main.pch -o /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ddblwyxetruyvebxdcuplryeyrfj/main.pch.pth -MMD -MT dependencies -MF /var/folders/fz/fztyoMirF5SBpirLZHG4h++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/main-ddblwyxetruyvebxdcuplryeyrfj/main.pch.d36"2F3BE179-32F5-4758-8DFE-C407419472DB-
+
+CTouch "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app"
+s351884569.118649
+e351884569.171320
+r1
+xTouch
+x/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Touch /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app5d871e1955f9b441^34f42b1955f9b441^---0#0#0#--259"Touch "build/Debug/video player.app"    cd /Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp    /usr/bin/touch -c "/Users/administrator/Documents/pocode/Spatial_Media/spatialMedia_VideoCaptureApp/build/Debug/video player.app"36"398A1032-77C8-4BA3-99D4-5359A4BE01FB-
+
