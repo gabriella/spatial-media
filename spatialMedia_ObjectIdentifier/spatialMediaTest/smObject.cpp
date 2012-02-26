@@ -15,53 +15,28 @@ smObject::smObject( int _ID )
     ID = _ID;
     pixelCount = 0;
     left=0;
-    right=0;
+    right=240;
     top=0;
-    bottom=0;
+    bottom=320;
 }
 
 void    smObject::acceptPixel( int x, int y )
 {  
     pixelCount++;
     
-    if(x<left){
-        x=left;
+    if(x>left){
+        left=x;
     }
-    if(x>right){
-        x=right;
+    if(x<right){
+        right=x;
     }
-    if(y<top){
-        y=top;
+    if(y>top){
+        top=y;
     }
-    if(y>bottom){
-        y=bottom;
+    if(y<bottom){
+       bottom=y;
     }
-//    if(x<left
-//    
-//    1. Extend the smObject class so that it counts all the pixels in the object. 
-//    This is effectively the area of object. Print out the pixel count for every 
-//        object in the source image
-    
-    // process incoming pixels here
-    
-//    for(int i=0;i<ID.width;i++){
-//        for(int j=0;j<ID.height;j++){
-//            
-//        }
-//        
-//    }
-//    int boxSize = (x+y)/2;
-//    //no - find the minimum and the maximum
-//    cout<<boxSize;
-//    cout<<x<<" "<<y;
-    
-       
-   // make something that is left(left, right, top bottom);  
-    //set min and max... 
-       
-       
-       
-    
+
 }
 
 

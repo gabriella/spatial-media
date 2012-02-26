@@ -24,7 +24,9 @@ spatialMediaApp::spatialMediaApp() {
     sourceImage = image1;
     
     // make the labelled image
-    labelImage = new smImage (320, 240);     
+    labelImage = new smImage (320, 240); 
+    
+   
     
     // register for mouse and key events
     addEvent( PO_MOUSE_MOVE_EVENT, this );
@@ -52,14 +54,17 @@ void spatialMediaApp::draw() {
     for(int i=0;i<objectSet.size();i++){
     
     //draw the bounding box here: 
-    int left = objectSet[i]->left;
-    int right = objectSet[i]->right;
-    int top = objectSet[i]->top;
-    int bottom=objectSet[i]->bottom;
-    
+     leftRect = objectSet[i]->left;
+     rightRect = objectSet[i]->right;
+     topRect = objectSet[i]->top;
+     bottomRect=objectSet[i]->bottom;
+        cout<<"right  "<<rightRect<<"left   "<<leftRect<<"topRect   "<<topRect<<"bottomRect   "<<bottomRect; 
+               
+        
+        
+        po::setColor(1,1,0.5,1);
+        po::drawStrokedRect(leftRect, topRect, rightRect-leftRect, bottomRect-topRect); 
     }
-    
-    
 }
 
 // EVENT HANDLER. Called when events happen. Respond to events here.
@@ -73,12 +78,14 @@ void spatialMediaApp::eventHandler(poEvent *event) {
     if ( event->type == PO_KEY_DOWN_EVENT )
     { 
 
-        
+
         if ( event->keyChar == ' ' )
         {
             labelImage->setAllPixels(0);
             processImage();
-            objectSet[1]->pixelCount=0;
+            for(int i=0;i<objectSet.size();i++){
+            objectSet[i]->pixelCount=0;
+                        }
         }
         
         if ( event->keyChar == '1' )
@@ -87,7 +94,10 @@ void spatialMediaApp::eventHandler(poEvent *event) {
             sourceImage = image2;
         if ( event->keyChar == '3' )
             sourceImage = image3;
+        
+
     }
+
 }
 
 // MESSAGE HANDLER. Called from within the app. Use for message passing.
@@ -174,7 +184,6 @@ bool        spatialMediaApp::seedFill( int x, int y, int label )
     seedFill(x,y-1,label);
     
     return true;
-    
     
 }
  
