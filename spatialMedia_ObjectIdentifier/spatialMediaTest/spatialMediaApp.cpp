@@ -38,7 +38,7 @@ spatialMediaApp::~spatialMediaApp() {
 
 // UPDATE. Called once per frame. Animate objects here.
 void spatialMediaApp::update() {
-    
+   
 
 }
 
@@ -59,7 +59,8 @@ void spatialMediaApp::eventHandler(poEvent *event) {
     }
     
     if ( event->type == PO_KEY_DOWN_EVENT )
-    {
+    { 
+
         
         if ( event->keyChar == ' ' )
         {
@@ -95,17 +96,22 @@ void        spatialMediaApp::processImage()
             if ( seedFill(i,j,label) )
                 label += 1;
         }
+    
     }
     
     // print number of shapes
-    printf("number of shapes: %d\n", label );
+    printf("number of shapes: %d\n", label  );
     
     // make shapes for every label
     for( int i=0; i<label; i++ )
     {
         smObject* OBJ = new smObject( i );
         objectSet.push_back( OBJ );
-    }
+        
+        
+       
+        
+           }
     
     // put pixel into objects (buckets)
     for( int i=0; i<320; i+=1 )
@@ -117,10 +123,17 @@ void        spatialMediaApp::processImage()
             
             // add to pixel to object
             objectSet[V]->acceptPixel(i,j);
+          
             
             // amplification, just so labels are visible
             labelImage->setPixel(i,j, V*40 );
+            
+                     
         }
+    }
+    for(int i=0;i<label;i++){
+        //printf("number of pixels in object %d %d \n",i, objectSet[i]->pixelCount);
+        cout<<"number of pixels: "<<objectSet[i]->pixelCount<<endl;
     }
 }
 

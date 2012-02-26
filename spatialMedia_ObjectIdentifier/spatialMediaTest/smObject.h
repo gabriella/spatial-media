@@ -17,6 +17,7 @@ public:
     smObject( int _ID );
     
     void    acceptPixel( int x, int y );
+    int pixelCount;
     
     int     ID;
 };
