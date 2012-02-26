@@ -25,6 +25,7 @@ public:
     smImage*    sourceImage;
     smImage*    labelImage;
     
+       
     float       mouseX, mouseY;
     char        lastKeyDown;
     

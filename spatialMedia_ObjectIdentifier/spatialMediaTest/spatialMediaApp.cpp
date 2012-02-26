@@ -14,7 +14,7 @@ using namespace po;
 spatialMediaApp::spatialMediaApp() {
 	addModifier(new poCamera2D(poColor::black));
     
-    
+    //left=right=top=bottm=0;
     // load the three images
     image1 = new smImage( "flood_fill_test_01.raw", 320, 240 );    
     image2 = new smImage( "flood_fill_test_02.raw", 320, 240 );    
@@ -48,6 +48,18 @@ void spatialMediaApp::draw() {
     po::setColor( poColor::white );
     labelImage ->fastDraw(0,0);
     sourceImage->fastDraw(500, 0);
+    
+    for(int i=0;i<objectSet.size();i++){
+    
+    //draw the bounding box here: 
+    int left = objectSet[i]->left;
+    int right = objectSet[i]->right;
+    int top = objectSet[i]->top;
+    int bottom=objectSet[i]->bottom;
+    
+    }
+    
+    
 }
 
 // EVENT HANDLER. Called when events happen. Respond to events here.
@@ -66,6 +78,7 @@ void spatialMediaApp::eventHandler(poEvent *event) {
         {
             labelImage->setAllPixels(0);
             processImage();
+            objectSet[1]->pixelCount=0;
         }
         
         if ( event->keyChar == '1' )
@@ -95,6 +108,7 @@ void        spatialMediaApp::processImage()
         {
             if ( seedFill(i,j,label) )
                 label += 1;
+          //  objectSet[i]->pixelCount=0;
         }
     
     }
@@ -108,8 +122,6 @@ void        spatialMediaApp::processImage()
         smObject* OBJ = new smObject( i );
         objectSet.push_back( OBJ );
         
-        
-       
         
            }
     
@@ -135,6 +147,7 @@ void        spatialMediaApp::processImage()
         //printf("number of pixels in object %d %d \n",i, objectSet[i]->pixelCount);
         cout<<"number of pixels: "<<objectSet[i]->pixelCount<<endl;
     }
+//objectSet->pixelCount=0;
 }
 
 bool        spatialMediaApp::seedFill( int x, int y, int label )
@@ -161,9 +174,11 @@ bool        spatialMediaApp::seedFill( int x, int y, int label )
     seedFill(x,y-1,label);
     
     return true;
+    
+    
 }
  
 
-
+//i have to reset the pixelCount to be 0
 
 

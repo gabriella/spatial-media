@@ -14,12 +14,28 @@ smObject::smObject( int _ID )
 {
     ID = _ID;
     pixelCount = 0;
+    left=0;
+    right=0;
+    top=0;
+    bottom=0;
 }
 
 void    smObject::acceptPixel( int x, int y )
 {  
     pixelCount++;
     
+    if(x<left){
+        x=left;
+    }
+    if(x>right){
+        x=right;
+    }
+    if(y<top){
+        y=top;
+    }
+    if(y>bottom){
+        y=bottom;
+    }
 //    if(x<left
 //    
 //    1. Extend the smObject class so that it counts all the pixels in the object. 
