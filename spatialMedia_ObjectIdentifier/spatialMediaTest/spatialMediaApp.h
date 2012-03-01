@@ -26,7 +26,7 @@ public:
     smImage*    labelImage;
     
     int leftRect, rightRect, topRect, bottomRect;
-
+    int midPointX, midPointY;
        
     float       mouseX, mouseY;
     char        lastKeyDown;

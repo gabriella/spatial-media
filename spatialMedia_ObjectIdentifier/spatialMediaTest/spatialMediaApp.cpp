@@ -26,7 +26,12 @@ spatialMediaApp::spatialMediaApp() {
     // make the labelled image
     labelImage = new smImage (320, 240); 
     
-   
+    leftRect = 0;
+    rightRect = 0;
+    topRect = 0;
+    bottomRect = 0;
+    
+
     
     // register for mouse and key events
     addEvent( PO_MOUSE_MOVE_EVENT, this );
@@ -58,12 +63,14 @@ void spatialMediaApp::draw() {
      rightRect = objectSet[i]->right;
      topRect = objectSet[i]->top;
      bottomRect=objectSet[i]->bottom;
-        cout<<"right  "<<rightRect<<"left   "<<leftRect<<"topRect   "<<topRect<<"bottomRect   "<<bottomRect; 
+        cout<<"right  "<<rightRect<<"left   "<<leftRect<<"topRect   "<<topRect<<"bottomRect   "<<bottomRect<<endl; 
                
-        
-        
         po::setColor(1,1,0.5,1);
         po::drawStrokedRect(leftRect, topRect, rightRect-leftRect, bottomRect-topRect); 
+   
+    
+       
+        
     }
 }
 
@@ -85,6 +92,11 @@ void spatialMediaApp::eventHandler(poEvent *event) {
             processImage();
             for(int i=0;i<objectSet.size();i++){
             objectSet[i]->pixelCount=0;
+                
+                objectSet.clear();
+       
+              
+                
                         }
         }
         
@@ -150,12 +162,22 @@ void        spatialMediaApp::processImage()
             // amplification, just so labels are visible
             labelImage->setPixel(i,j, V*40 );
             
+       //     int iter = j*320+i;
+            
+                             
                      
         }
     }
     for(int i=0;i<label;i++){
         //printf("number of pixels in object %d %d \n",i, objectSet[i]->pixelCount);
         cout<<"number of pixels: "<<objectSet[i]->pixelCount<<endl;
+        
+    midPointX = objectSet[i]->midPointX/((objectSet[i]->pixelCount == 0)?(0.00000001):(objectSet[i]->pixelCount));
+        midPointY = objectSet[i]->midPointY/((objectSet[i]->pixelCount == 0)?(0.00000001):(objectSet[i]->pixelCount));
+        labelImage->setPixel(midPointX, midPointY, 255);
+        
+        
+
     }
 //objectSet->pixelCount=0;
 }

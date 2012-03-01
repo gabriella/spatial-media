@@ -24,6 +24,10 @@ void    smObject::acceptPixel( int x, int y )
 {  
     pixelCount++;
     
+    
+    midPointX =0;//+=x;
+    midPointY =0;//+=y;
+    
     if(x>left){
         left=x;
     }
@@ -36,7 +40,8 @@ void    smObject::acceptPixel( int x, int y )
     if(y<bottom){
        bottom=y;
     }
-
+    
+  
 }
 
 

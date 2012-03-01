@@ -20,7 +20,7 @@ public:
     int pixelCount;
     
     int     ID;
-    int left, right, top, bottom;
+    int left, right, top, bottom, midPointX, midPointY;
 };
 
 
