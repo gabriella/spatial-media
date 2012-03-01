@@ -93,7 +93,7 @@ void spatialMediaApp::eventHandler(poEvent *event) {
             for(int i=0;i<objectSet.size();i++){
             objectSet[i]->pixelCount=0;
                 
-                objectSet.clear();
+              //  objectSet.clear();
        
               
                 
@@ -172,7 +172,7 @@ void        spatialMediaApp::processImage()
         //printf("number of pixels in object %d %d \n",i, objectSet[i]->pixelCount);
         cout<<"number of pixels: "<<objectSet[i]->pixelCount<<endl;
         
-    midPointX = objectSet[i]->midPointX/((objectSet[i]->pixelCount == 0)?(0.00000001):(objectSet[i]->pixelCount));
+   midPointX = objectSet[i]->midPointX/((objectSet[i]->pixelCount == 0)?(0.00000001):(objectSet[i]->pixelCount));
         midPointY = objectSet[i]->midPointY/((objectSet[i]->pixelCount == 0)?(0.00000001):(objectSet[i]->pixelCount));
         labelImage->setPixel(midPointX, midPointY, 255);
         
